@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jonghow\\source\\repos\\CodingTestRepositoryCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\source\\repos\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\source\\repos\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\leetcode\\leetcode_1025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\leetcode\\leetcode_1025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeetCode_1025.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\source\\repos\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\source\\repos\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T15:55:14.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\source\\repos\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Program.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Program.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\source\\repos\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Program.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T15:24:18.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
