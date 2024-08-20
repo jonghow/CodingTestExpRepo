@@ -5,3 +5,10 @@ C:\Users\Jonghow\source\repos\CodingTestRepositoryCSharp\CodingTestRepositoryCSh
 C:\Users\Jonghow\source\repos\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.CoreCompileInputs.cache
 C:\Users\Jonghow\source\repos\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.exe
 C:\Users\Jonghow\source\repos\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.pdb
+C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.exe.config
+C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.exe
+C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.pdb
+C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.AssemblyReference.cache
+C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.exe
+C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.pdb
