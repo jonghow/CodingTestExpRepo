@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\LeetCode\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1025.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1302.Deepest_Leaves_Sum.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1529.cs" />
