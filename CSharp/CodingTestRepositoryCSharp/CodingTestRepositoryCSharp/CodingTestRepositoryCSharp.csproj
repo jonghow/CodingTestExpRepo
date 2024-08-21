@@ -59,6 +59,7 @@
     <Compile Include="Script\Programmers\Programmers_같은_숫자는_싫어.cs" />
     <Compile Include="Script\Programmers\Programmers_게임맵_최단거리.cs" />
     <Compile Include="Script\Programmers\Programmers_소수_찾기.cs" />
+    <Compile Include="Script\Programmers\Programmers_최소직사각형.cs" />
     <Compile Include="Script\Programmers\Programmers_타겟넘버.cs" />
   </ItemGroup>
   <ItemGroup>
