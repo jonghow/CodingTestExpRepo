@@ -45,16 +45,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Script\LeetCode\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs" />
+    <Compile Include="Script\BOJ\BOJ_16918_봄버맨.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1025.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1302.Deepest_Leaves_Sum.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1529.cs" />
     <Compile Include="Script\LeetCode\LeetCode_2331_Evaluate Boolean Binary Tree.cs" />
+    <Compile Include="Script\LeetCode\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs" />
     <Compile Include="Script\LeetCode\LeetCode_451_Sort_Character_By_Frequency.cs" />
     <Compile Include="Script\LeetCode\LeetCode_797.cs" />
     <Compile Include="Script\LeetCode\LeetCode_921.cs" />
-    <Compile Include="Script\Programmers\Programmers_H-Index_다른풀이_2번째.cs" />
     <Compile Include="Script\Programmers\Programmers_H-Index.cs" />
+    <Compile Include="Script\Programmers\Programmers_H-Index_다른풀이_2번째.cs" />
     <Compile Include="Script\Programmers\Programmers_K번째수.cs" />
     <Compile Include="Script\Programmers\Programmers_같은_숫자는_싫어.cs" />
     <Compile Include="Script\Programmers\Programmers_게임맵_최단거리.cs" />
@@ -66,7 +67,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Script\BOJ\" />
     <Folder Include="Script\HackerRank\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

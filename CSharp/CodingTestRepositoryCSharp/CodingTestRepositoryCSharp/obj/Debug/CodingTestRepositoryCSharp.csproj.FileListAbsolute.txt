@@ -12,3 +12,10 @@ C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\Cod
 C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.CoreCompileInputs.cache
 C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.exe
 C:\Users\Jonghow\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.pdb
+C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.exe.config
+C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.exe
+C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.pdb
+C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.AssemblyReference.cache
+C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.CoreCompileInputs.cache
+C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.exe
+C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.pdb
