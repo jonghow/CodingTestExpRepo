@@ -19,3 +19,10 @@ C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestReposit
 C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.CoreCompileInputs.cache
 C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.exe
 C:\Users\sin15\OneDrive\바탕 화면\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.pdb
+C:\Users\jongho\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.exe.config
+C:\Users\jongho\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.exe
+C:\Users\jongho\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\bin\Debug\CodingTestRepositoryCSharp.pdb
+C:\Users\jongho\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.AssemblyReference.cache
+C:\Users\jongho\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.csproj.CoreCompileInputs.cache
+C:\Users\jongho\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.exe
+C:\Users\jongho\Desktop\CodingTestExpRepo\CSharp\CodingTestRepositoryCSharp\CodingTestRepositoryCSharp\obj\Debug\CodingTestRepositoryCSharp.pdb

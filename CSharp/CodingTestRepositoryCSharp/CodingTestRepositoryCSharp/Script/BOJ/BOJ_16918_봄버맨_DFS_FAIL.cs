@@ -78,15 +78,13 @@
 
 //        public void printInitTypeBomb()
 //        {
-//            for (int i = 0; i < isVisited.GetLength(0); ++i)
+//            for (int i = 0; i < maps.GetLength(0); ++i)
 //            {
-//                for (int j = 0; j < vertical; ++j)
+//                for (int j = 0; j < maps.GetLength(1); ++j)
 //                {
 //                    char chr = maps[i, j];
 //                    Console.Write(chr);
-
 //                }
-
 //                Console.WriteLine();
 //            }
 //        }
@@ -138,9 +136,6 @@
 
 //        public void dfs(int x , int y, int count, bool isbomb)
 //        {
-//            if (x < 0 || y < 0 || x >= row || y >= vertical)
-//                return; // 영엮밖이라면 종료
-
 //            if (count < 0)
 //                return;
 
@@ -154,6 +149,9 @@
 //                int newPosX = x + dx[i];
 //                int newPosY = y + dy[i];
 //                int cnt = count - 1;
+
+//                if (newPosX < 0 || newPosY < 0 || newPosX >= row || newPosY >= vertical)
+//                    continue; 
 
 //                char nextTileisInfo = 'a';
 
@@ -172,7 +170,6 @@
 //        {
 //            for (int i = 0; i < isVisited.GetLength(0); ++i)
 //            {
-                
 //                for (int j = 0; j < isVisited.GetLength(1); ++j)
 //                {
 //                    if(isVisited[i,j] == true)
@@ -184,25 +181,11 @@
 //                        Console.Write('O');
 //                    }
 //                }
-
 //                Console.WriteLine();
 //            }
-        
 //        }
-
 //        //1t : 1h 56m
-
 //    }
-
 //}
-
-////
-////3 3 5
-////OO.
-////OOO
-////OOO
-////
-////
-
 
 
