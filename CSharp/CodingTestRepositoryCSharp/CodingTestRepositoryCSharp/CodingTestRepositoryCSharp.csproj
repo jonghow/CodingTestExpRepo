@@ -54,6 +54,7 @@
     <Compile Include="Script\LeetCode\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs" />
     <Compile Include="Script\LeetCode\LeetCode_451_Sort_Character_By_Frequency.cs" />
     <Compile Include="Script\LeetCode\LeetCode_797.cs" />
+    <Compile Include="Script\LeetCode\LeetCode_938. Range Sum of BST.cs" />
     <Compile Include="Script\LeetCode\LeetCode_921.cs" />
     <Compile Include="Script\Programmers\Programmers_H-Index.cs" />
     <Compile Include="Script\Programmers\Programmers_H-Index_다른풀이_2번째.cs" />
@@ -65,7 +66,6 @@
     <Compile Include="Script\Programmers\Programmers_모의고사.cs" />
     <Compile Include="Script\Programmers\Programmers_카펫.cs" />
     <Compile Include="Script\Programmers\Programmers_타겟넘버.cs" />
-    <Compile Include="Script\Programmers\Programmers_모의고사.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
