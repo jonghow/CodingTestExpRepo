@@ -55,6 +55,7 @@
     <Compile Include="Script\LeetCode\LeetCode_451_Sort_Character_By_Frequency.cs" />
     <Compile Include="Script\LeetCode\LeetCode_797.cs" />
     <Compile Include="Script\LeetCode\LeetCode_938. Range Sum of BST.cs" />
+    <Compile Include="Script\LeetCode\LeetCode_1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.cs" />
     <Compile Include="Script\LeetCode\LeetCode_921.cs" />
     <Compile Include="Script\Programmers\Programmers_H-Index.cs" />
     <Compile Include="Script\Programmers\Programmers_H-Index_다른풀이_2번째.cs" />
