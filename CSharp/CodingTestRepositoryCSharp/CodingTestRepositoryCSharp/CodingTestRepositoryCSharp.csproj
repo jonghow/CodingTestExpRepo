@@ -45,8 +45,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\BOJ\BOJ_10972_다음순열_순열_FAIL.cs" />
     <Compile Include="Script\BOJ\BOJ_16918_봄버맨_BFS.cs" />
-    <Compile Include="Script\BOJ\BOJ_16918_봄버맨_DFS_FAIL.cs" />
+    <Compile Include="Script\BOJ\BOJ_16918_봄버맨_DFS_FAIL - 복사본.cs" />
+    <Compile Include="Script\BOJ\BOJ_10973_이전순열_순열_FAIL.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1025.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1302.Deepest_Leaves_Sum.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1529.cs" />
