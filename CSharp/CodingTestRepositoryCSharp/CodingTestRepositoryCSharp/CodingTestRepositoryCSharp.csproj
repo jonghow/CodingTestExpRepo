@@ -45,10 +45,18 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Script\BOJ\BOJ_10972_다음순열_순열_FAIL.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Script\BOJ\BOJ_16918_봄버맨_BFS.cs" />
-    <Compile Include="Script\BOJ\BOJ_16918_봄버맨_DFS_FAIL - 복사본.cs" />
-    <Compile Include="Script\BOJ\BOJ_10973_이전순열_순열_FAIL.cs" />
+    <Compile Include="Script\BOJ\BOJ_16918_봄버맨_DFS_FAIL.cs" />
+=======
+    <Compile Include="Script\HackerRank\Programmers_Nexon_3.cs" />
+    <Compile Include="Script\HackerRank\Programmers_Nexon_4.cs" />
+    <Compile Include="Script\HackerRank\Programmers_Nexon_2.cs" />
+    <Compile Include="Script\HackerRank\Programmers_Nexon_1.cs" />
+    <Compile Include="Script\HackerRank\Programmers_Nexon_5.cs" />
+    <Compile Include="Script\BOJ\BOJ_1312_소수.cs" />
+    <Compile Include="Script\LeetCode\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Script\LeetCode\LeetCode_1025.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1302.Deepest_Leaves_Sum.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1529.cs" />
@@ -59,12 +67,20 @@
     <Compile Include="Script\LeetCode\LeetCode_938. Range Sum of BST.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.cs" />
     <Compile Include="Script\LeetCode\LeetCode_921.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Script\Programmers\Programmers_H-Index - 복사본.cs" />
+    <Compile Include="Script\Programmers\Programmers_H-Index_다른풀이_2번째.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Script\Programmers\Programmers_H-Index.cs" />
     <Compile Include="Script\Programmers\Programmers_H-Index_다른풀이_2번째.cs" />
     <Compile Include="Script\Programmers\Programmers_K번째수.cs" />
     <Compile Include="Script\Programmers\Programmers_같은_숫자는_싫어.cs" />
+    <Compile Include="Script\Programmers\Programmers_조이시티.cs" />
     <Compile Include="Script\Programmers\Programmers_게임맵_최단거리.cs" />
     <Compile Include="Script\Programmers\Programmers_소수_찾기.cs" />
+    <Compile Include="Script\Programmers\Programmers_조이시티_2 - 복사본.cs" />
+    <Compile Include="Script\Programmers\Programmers_조이시티_2.cs" />
     <Compile Include="Script\Programmers\Programmers_최소직사각형.cs" />
     <Compile Include="Script\Programmers\Programmers_모의고사.cs" />
     <Compile Include="Script\Programmers\Programmers_카펫.cs" />
@@ -73,8 +89,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< Updated upstream
   <ItemGroup>
     <Folder Include="Script\HackerRank\" />
   </ItemGroup>
+=======
+  <ItemGroup />
+>>>>>>> Stashed changes
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
