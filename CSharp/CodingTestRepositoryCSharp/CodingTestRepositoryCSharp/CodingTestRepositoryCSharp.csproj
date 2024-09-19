@@ -64,6 +64,7 @@
     <Compile Include="Script\LeetCode\LeetCode_938. Range Sum of BST.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.cs" />
     <Compile Include="Script\LeetCode\LeetCode_921.cs" />
+    <Compile Include="Script\Programmers\Programmers_게임 맵 최단거리_2nd_Try.cs" />
     <Compile Include="Script\Programmers\Programmers_AwesomePiece_2_2.cs" />
     <Compile Include="Script\Programmers\Programmers_AwesomePiece_3_2.cs" />
     <Compile Include="Script\Programmers\Programmers_AwesomePiece_4.cs" />
