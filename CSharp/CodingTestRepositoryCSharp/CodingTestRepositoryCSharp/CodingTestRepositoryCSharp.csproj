@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Script\BOJ\BOJ_7652_나이트의 이동.cs" />
+    <Compile Include="Script\BOJ\BOJ_10828_스택.cs" />
     <Compile Include="Script\BOJ\BOJ_16918_봄버맨_BFS.cs" />
     <Compile Include="Script\HackerRank\Programmers_Nexon_3.cs" />
     <Compile Include="Script\HackerRank\Programmers_Nexon_4.cs" />
@@ -64,6 +64,7 @@
     <Compile Include="Script\LeetCode\LeetCode_938. Range Sum of BST.cs" />
     <Compile Include="Script\LeetCode\LeetCode_1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree.cs" />
     <Compile Include="Script\LeetCode\LeetCode_921.cs" />
+    <Compile Include="Script\Programmers\Programmers_게임 맵 최단거리_2nd_Try.cs" />
     <Compile Include="Script\Programmers\Programmers_AwesomePiece_2_2.cs" />
     <Compile Include="Script\Programmers\Programmers_AwesomePiece_3_2.cs" />
     <Compile Include="Script\Programmers\Programmers_AwesomePiece_4.cs" />
