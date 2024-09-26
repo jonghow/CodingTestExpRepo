@@ -17,6 +17,7 @@
 //using static CodingTestProj.Program;
 
 ///*
+// * Difficulty : Easy ~ Middle
 // * URL : https://www.acmicpc.net/submit/10828
 // */
 
@@ -76,11 +77,11 @@
 
 //        public void Prog(int loop)
 //        {
-//            for(int i = 0; i < loop; ++i)
+//            for (int i = 0; i < loop; ++i)
 //            {
 //                string[] commandArr = Console.ReadLine().Split(' ');
 //                string command = commandArr[0];
-                
+
 
 //                if (command.Equals("push"))
 //                {
@@ -109,12 +110,7 @@
 
 //        private void push(int x)
 //        {
-//            for(int i = 1; i <= _count; ++i)
-//            {
-//                _arr[i] = _arr[i - 1];
-//            }// 밀기
-
-//            _arr[0] = x;
+//            _arr[_count] = x;
 //            _count++;
 //        }
 
@@ -128,7 +124,7 @@
 //            else
 //            {
 //                //print._list.Add(_arr[0]);
-//                Console.Write(_arr[0] + $"\n");
+//                Console.Write(_arr[_count-1] + $"\n");
 //            }
 //        }
 
@@ -140,7 +136,7 @@
 
 //        public void empty()
 //        {
-//            if(_count == 0)
+//            if (_count == 0)
 //            {
 //                //print._list.Add(1);
 //                Console.Write(1 + $"\n");
@@ -154,22 +150,14 @@
 
 //        public void pop()
 //        {
-//            if(_count == 0)
+//            if (_count == 0)
 //            {
 //                //print._list.Add(-1);
 //                Console.Write(-1 + $"\n");
 //            }
 //            else
 //            {
-//                var _popValue = _arr[0];
-//                _arr[0] = 0;
-
-//                for(int i = _count -1; i > 0; --i)
-//                {
-//                    _arr[i - 1] = _arr[i];
-//                    _arr[i] = 0;
-//                }// 당기기
-
+//                var _popValue = _arr[_count-1];
 //                _count--;
 //                //print._list.Add(_popValue);
 //                Console.Write(_popValue + $"\n");
