@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\BOJ\BOJ_21736_헌내기는 친구가 필요해.cs" />
     <Compile Include="Script\BOJ\BOJ_1427_소트인사이드.cs" />
     <Compile Include="Script\BOJ\BOJ_10828_스택.cs" />
     <Compile Include="Script\BOJ\BOJ_16918_봄버맨_BFS.cs" />
