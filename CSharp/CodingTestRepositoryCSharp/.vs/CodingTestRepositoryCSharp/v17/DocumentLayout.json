@@ -3,88 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\desktop\\codingtestexprepo\\csharp\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\boj\\boj_2583_\uC601\uC5ED_\uAD6C\uD558\uAE30.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_2583_\uC601\uC5ED_\uAD6C\uD558\uAE30.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\desktop\\codingtestexprepo\\csharp\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\boj\\boj_21736_\uD5CC\uB0B4\uAE30\uB294 \uCE5C\uAD6C\uAC00 \uD544\uC694\uD574.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_21736_\uD5CC\uB0B4\uAE30\uB294 \uCE5C\uAD6C\uAC00 \uD544\uC694\uD574.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1312_\uC18C\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1312_\uC18C\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\desktop\\codingtestexprepo\\csharp\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\boj\\boj_10828_\uC2A4\uD0DD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_10828_\uC2A4\uD0DD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\codingtestrepositorycsharp\\script\\boj\\boj_16918_\uBD04\uBC84\uB9E8_bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_16918_\uBD04\uBC84\uB9E8_bfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1312_\uC18C\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1312_\uC18C\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uD0C0\uAC9F\uB118\uBC84.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uD0C0\uAC9F\uB118\uBC84.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uD0C0\uAC9F\uB118\uBC84.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uD0C0\uAC9F\uB118\uBC84.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_K\uBC88\uC9F8\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_K\uBC88\uC9F8\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_K\uBC88\uC9F8\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_K\uBC88\uC9F8\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodingTestRepositoryCSharp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:CodingTestRepositoryCSharp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -103,31 +115,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CodingTestRepositoryCSharp.csproj",
-              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj",
-              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj",
-              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj",
-              "RelativeToolTip": "CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDgAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-18T00:08:18.103Z",
+              "Title": "BOJ_2583_\uC601\uC5ED_\uAD6C\uD558\uAE30.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2583_\uC601\uC5ED_\uAD6C\uD558\uAE30.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2583_\uC601\uC5ED_\uAD6C\uD558\uAE30.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2583_\uC601\uC5ED_\uAD6C\uD558\uAE30.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2583_\uC601\uC5ED_\uAD6C\uD558\uAE30.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAgwJoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T02:48:30.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BOJ_21736_\uD5CC\uB0B4\uAE30\uB294 \uCE5C\uAD6C\uAC00 \uD544\uC694\uD574.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_21736_\uD5CC\uB0B4\uAE30\uB294 \uCE5C\uAD6C\uAC00 \uD544\uC694\uD574.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_21736_\uD5CC\uB0B4\uAE30\uB294 \uCE5C\uAD6C\uAC00 \uD544\uC694\uD574.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_21736_\uD5CC\uB0B4\uAE30\uB294 \uCE5C\uAD6C\uAC00 \uD544\uC694\uD574.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_21736_\uD5CC\uB0B4\uAE30\uB294 \uCE5C\uAD6C\uAC00 \uD544\uC694\uD574.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAAAHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T02:48:34.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BOJ_16918_\uBD04\uBC84\uB9E8_BFS.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_16918_\uBD04\uBC84\uB9E8_BFS.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_16918_\uBD04\uBC84\uB9E8_BFS.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_16918_\uBD04\uBC84\uB9E8_BFS.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_16918_\uBD04\uBC84\uB9E8_BFS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T02:48:02.443Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BOJ_10828_\uC2A4\uD0DD.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_10828_\uC2A4\uD0DD.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_10828_\uC2A4\uD0DD.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_10828_\uC2A4\uD0DD.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_10828_\uC2A4\uD0DD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T02:48:01.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BOJ_1312_\uC18C\uC218.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1312_\uC18C\uC218.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1312_\uC18C\uC218.cs",
               "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1312_\uC18C\uC218.cs",
               "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1312_\uC18C\uC218.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAmwCsAAAAYAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwDEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T19:16:38.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Programmers_Nexon_3.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_3.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_3.cs",
@@ -139,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Programmers_Nexon_4.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_4.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_4.cs",
@@ -151,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Programmers_Nexon_2.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_2.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_2.cs",
@@ -163,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Programmers_Nexon_1.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_1.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_1.cs",
@@ -175,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Programmers_Nexon_5.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_5.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_5.cs",
@@ -187,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs",
@@ -199,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Programmers_\uD0C0\uAC9F\uB118\uBC84.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uD0C0\uAC9F\uB118\uBC84.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uD0C0\uAC9F\uB118\uBC84.cs",
@@ -211,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs",
@@ -223,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Programmers_H-Index.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index.cs",
@@ -235,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs",
@@ -243,11 +293,12 @@
               "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAuwFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T16:07:07.645Z"
+              "WhenOpened": "2024-08-21T16:07:07.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs",
@@ -259,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Programmers_\uC870\uC774\uC2DC\uD2F0.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0.cs",
@@ -271,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs",
@@ -283,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Programmers_K\uBC88\uC9F8\uC218.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_K\uBC88\uC9F8\uC218.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_K\uBC88\uC9F8\uC218.cs",
@@ -295,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs",
@@ -307,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2.cs",
@@ -319,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs",
@@ -331,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "LeetCode_1025.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs",
@@ -343,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Program.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Program.cs",
