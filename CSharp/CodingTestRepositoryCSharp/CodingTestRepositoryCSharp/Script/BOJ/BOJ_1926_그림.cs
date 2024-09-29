@@ -19,7 +19,7 @@ using System.Xml.Linq;
 using static CodingTestProj.Program;
 
 /*
- * Difficulty : 
+ * Difficulty : Middle
  * URL : https://www.acmicpc.net/problem/1926
  * Time : 01h 10m , Failed
  */
@@ -53,7 +53,7 @@ namespace CodingTestProj
 
         public void solve()
         {
-            string input = Console.ReadLine().Replace(" ", string.Empty);
+            string[] input = Console.ReadLine().Split(' ');
 
             n = Convert.ToInt32(input[0].ToString());
             m = Convert.ToInt32(input[1].ToString());
@@ -63,7 +63,7 @@ namespace CodingTestProj
 
             for (int i = 0; i < maps.GetLength(0); i++)
             {
-                input = Console.ReadLine().Replace(" ", string.Empty);
+                input = Console.ReadLine().Split(' ');
 
                 for (int j = 0; j < input.Length; ++j)
                 {
@@ -138,6 +138,8 @@ namespace CodingTestProj
         {
             retList.Sort((int a, int b) => { return b.CompareTo(a); });
             Console.WriteLine(retList.Count);
+            int ret = retList.Count == 0 ? 0 : retList[0];
+            Console.WriteLine(ret);
         }
     }
 }
