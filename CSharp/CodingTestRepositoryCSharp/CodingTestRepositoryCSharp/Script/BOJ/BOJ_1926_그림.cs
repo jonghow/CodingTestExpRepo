@@ -21,7 +21,6 @@ using static CodingTestProj.Program;
 /*
  * Difficulty : Middle
  * URL : https://www.acmicpc.net/problem/1926
- * Time : 01h 10m , Failed
  */
 
 
