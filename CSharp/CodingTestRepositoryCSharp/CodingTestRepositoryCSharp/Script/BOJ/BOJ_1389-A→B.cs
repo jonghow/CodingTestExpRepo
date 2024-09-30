@@ -40,26 +40,20 @@ namespace CodingTestProj
     }
     public class Solution
     {
-        public int maxValue;
-
         public int start;
-        public int target;
+        public double target;
 
-        public int ret;
-
-        public int[] maps;
+        public double ret;
+        public Dictionary<double, double> dic;
 
         public void solve()
         {
-            maxValue = (int)Math.Pow(10, 9);
-            ret = Int32.MaxValue;
+            dic = new Dictionary<double, double>();
 
             string[] input = Console.ReadLine().Split(' ');
 
             start = Convert.ToInt32(input[0].ToString());
-            target = Convert.ToInt32(input[1].ToString());
-
-            maps = new int[target];
+            target = Convert.ToInt64(input[1].ToString());
 
             BFS();
             Print();
@@ -67,9 +61,11 @@ namespace CodingTestProj
 
         public void BFS()
         {
-            Queue<int> q = new Queue<int>();
+            Queue<double> q = new Queue<double>();
             q.Enqueue(start);
-            maps[start] = 1;
+
+            if (dic.ContainsKey(start) == false)
+                dic.Add(start, 1);
 
             while (q.Count > 0)
             {
@@ -81,26 +77,42 @@ namespace CodingTestProj
                 if (cur > target)
                     continue;
 
-                var calc1 = cur * 2;
-                var calc2 = Int32.Parse(cur.ToString() + "1");
+                var calc1 = (double)cur * (double)2;
+                var calc2 = double.Parse(cur.ToString() + "1");
 
                 if (calc1 <= target)
                 {
                     q.Enqueue(calc1);
-                    maps[calc1] = (int)(maps[cur] + 1);
+
+                    if (dic.ContainsKey(calc1) == false)
+                    {
+                        var values = dic[cur] + 1;
+                        dic.Add(calc1, values);
+                    }
                 }
+
+                if (calc1 == target)
+                    break;
 
                 if (calc2 <= target)
                 {
                     q.Enqueue(calc2);
-                    maps[calc2] = (int)(maps[cur] + 1);
+
+                    if (dic.ContainsKey(calc2) == false)
+                    {
+                        var values = dic[cur] + 1;
+                        dic.Add(calc2, values);
+                    }
                 }
+
+                if (calc2 == target)
+                    break;
             }
         }
 
         public void Print()
         {
-            ret = maps[target] == 0 ? -1 : maps[target];
+            ret = dic.ContainsKey(target) == false ? (double)(-1) : dic[target];
             Console.WriteLine(ret);
         }
     }
