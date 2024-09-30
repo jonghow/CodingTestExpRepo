@@ -1,144 +1,144 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.Design;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Security.AccessControl;
-using System.Security.Authentication;
-using System.Security.Cryptography;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Web;
-using System.Xml.Linq;
-using static CodingTestProj.Program;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.ComponentModel.Design;
+//using System.Diagnostics;
+//using System.IO;
+//using System.Linq;
+//using System.Runtime.CompilerServices;
+//using System.Runtime.InteropServices;
+//using System.Security.AccessControl;
+//using System.Security.Authentication;
+//using System.Security.Cryptography;
+//using System.Security.Cryptography.X509Certificates;
+//using System.Text;
+//using System.Threading;
+//using System.Threading.Tasks;
+//using System.Web;
+//using System.Xml.Linq;
+//using static CodingTestProj.Program;
 
-/*
- * Difficulty : Middle
- * URL : https://www.acmicpc.net/problem/1926
- */
-
-
-namespace CodingTestProj
-{
-    internal class Program
-    {
+///*
+// * Difficulty : Middle
+// * URL : https://www.acmicpc.net/problem/1926
+// */
 
 
-        static void Main(string[] args)
-        {
-            //Case 0 _ Short
-            Solution solution = new Solution();
-            solution.solve();
-        }
-    }
-    public class Solution
-    {
-        int n;
-        int m;
+//namespace CodingTestProj
+//{
+//    internal class Program
+//    {
 
-        int[,] maps;
-        bool[,] visited;
 
-        int[] dx = new int[4] { 0, 0, -1, 1 };
-        int[] dy = new int[4] { 1, -1, 0, 0 };
+//        static void Main(string[] args)
+//        {
+//            //Case 0 _ Short
+//            Solution solution = new Solution();
+//            solution.solve();
+//        }
+//    }
+//    public class Solution
+//    {
+//        int n;
+//        int m;
 
-        List<int> retList = new List<int>();
+//        int[,] maps;
+//        bool[,] visited;
 
-        public void solve()
-        {
-            string[] input = Console.ReadLine().Split(' ');
+//        int[] dx = new int[4] { 0, 0, -1, 1 };
+//        int[] dy = new int[4] { 1, -1, 0, 0 };
 
-            n = Convert.ToInt32(input[0].ToString());
-            m = Convert.ToInt32(input[1].ToString());
+//        List<int> retList = new List<int>();
 
-            maps = new int[n, m];
-            visited = new bool[n, m];
+//        public void solve()
+//        {
+//            string[] input = Console.ReadLine().Split(' ');
 
-            for (int i = 0; i < maps.GetLength(0); i++)
-            {
-                input = Console.ReadLine().Split(' ');
+//            n = Convert.ToInt32(input[0].ToString());
+//            m = Convert.ToInt32(input[1].ToString());
 
-                for (int j = 0; j < input.Length; ++j)
-                {
-                    maps[i, j] = Convert.ToInt32(input[j].ToString());
+//            maps = new int[n, m];
+//            visited = new bool[n, m];
 
-                    if (maps[i, j] == 0)
-                        visited[i, j] = true;
-                }
-            }
+//            for (int i = 0; i < maps.GetLength(0); i++)
+//            {
+//                input = Console.ReadLine().Split(' ');
 
-            for (int i = 0; i < n; ++i)
-            {
-                for (int j = 0; j < m; ++j)
-                {
-                    if (visited[i, j] == false)
-                    {
-                        int posX = i;
-                        int posY = j;
-                        BFS(posX, posY);
-                    }
-                }
-            }
-            Print();
-        }
-        public void BFS(int posX, int posY)
-        {
-            Queue<Tuple<int, int>> q = new Queue<Tuple<int, int>>();
+//                for (int j = 0; j < input.Length; ++j)
+//                {
+//                    maps[i, j] = Convert.ToInt32(input[j].ToString());
 
-            q.Enqueue(new Tuple<int, int>(posX, posY));
-            int ret = 0;
-            ++ret;
+//                    if (maps[i, j] == 0)
+//                        visited[i, j] = true;
+//                }
+//            }
 
-            while (q.Count > 0)
-            {
-                var deq = q.Dequeue();
+//            for (int i = 0; i < n; ++i)
+//            {
+//                for (int j = 0; j < m; ++j)
+//                {
+//                    if (visited[i, j] == false)
+//                    {
+//                        int posX = i;
+//                        int posY = j;
+//                        BFS(posX, posY);
+//                    }
+//                }
+//            }
+//            Print();
+//        }
+//        public void BFS(int posX, int posY)
+//        {
+//            Queue<Tuple<int, int>> q = new Queue<Tuple<int, int>>();
 
-                int curPosX = deq.Item1;
-                int curPosY = deq.Item2;
+//            q.Enqueue(new Tuple<int, int>(posX, posY));
+//            int ret = 0;
+//            ++ret;
 
-                visited[curPosX, curPosY] = true;
+//            while (q.Count > 0)
+//            {
+//                var deq = q.Dequeue();
 
-                for (int i = 0; i < 4; ++i)
-                {
-                    int newPosX = curPosX + dx[i];
-                    int newPosY = curPosY + dy[i];
+//                int curPosX = deq.Item1;
+//                int curPosY = deq.Item2;
 
-                    if (CheckSafeArea(newPosX, newPosY) == false)
-                        continue;
+//                visited[curPosX, curPosY] = true;
 
-                    if (visited[newPosX, newPosY] == true)
-                        continue;
+//                for (int i = 0; i < 4; ++i)
+//                {
+//                    int newPosX = curPosX + dx[i];
+//                    int newPosY = curPosY + dy[i];
 
-                    visited[newPosX, newPosY] = true;
+//                    if (CheckSafeArea(newPosX, newPosY) == false)
+//                        continue;
 
-                    q.Enqueue(new Tuple<int, int>(newPosX, newPosY));
-                    ++ret;
-                }
-            }
+//                    if (visited[newPosX, newPosY] == true)
+//                        continue;
 
-            retList.Add(ret);
-        }
+//                    visited[newPosX, newPosY] = true;
 
-        public bool CheckSafeArea(int newPosX, int newPosY)
-        {
-            if (newPosX < 0 || newPosY < 0 || newPosX > (n - 1) || newPosY > (m - 1))
-                return false;
+//                    q.Enqueue(new Tuple<int, int>(newPosX, newPosY));
+//                    ++ret;
+//                }
+//            }
 
-            return true;
-        }
+//            retList.Add(ret);
+//        }
 
-        public void Print()
-        {
-            retList.Sort((int a, int b) => { return b.CompareTo(a); });
-            Console.WriteLine(retList.Count);
-            int ret = retList.Count == 0 ? 0 : retList[0];
-            Console.WriteLine(ret);
-        }
-    }
-}
+//        public bool CheckSafeArea(int newPosX, int newPosY)
+//        {
+//            if (newPosX < 0 || newPosY < 0 || newPosX > (n - 1) || newPosY > (m - 1))
+//                return false;
+
+//            return true;
+//        }
+
+//        public void Print()
+//        {
+//            retList.Sort((int a, int b) => { return b.CompareTo(a); });
+//            Console.WriteLine(retList.Count);
+//            int ret = retList.Count == 0 ? 0 : retList[0];
+//            Console.WriteLine(ret);
+//        }
+//    }
+//}
