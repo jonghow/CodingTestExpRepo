@@ -20,7 +20,7 @@ using System.Xml.Linq;
 using static CodingTestProj.Program;
 
 /*
- * Difficulty : Easy
+ * Difficulty : Middle
  * URL : https://www.acmicpc.net/problem/1057
  * Time : 59m 17s
  */
