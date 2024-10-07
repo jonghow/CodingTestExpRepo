@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\BOJ\BOJ_3040_백설_공주와_일곱_난쟁이.cs" />
     <Compile Include="Script\BOJ\BOJ_10828_스택.cs" />
     <Compile Include="Script\BOJ\BOJ_10972_다음순열_순열_FAIL.cs" />
     <Compile Include="Script\BOJ\BOJ_10973_이전순열_순열_FAIL.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Script\BOJ\BOJ_16918_봄버맨_BFS.cs" />
     <Compile Include="Script\BOJ\BOJ_16918_봄버맨_DFS_FAIL - 복사본.cs" />
     <Compile Include="Script\BOJ\BOJ_1926_그림.cs" />
+    <Compile Include="Script\BOJ\BOJ_1057_토너먼트.cs" />
     <Compile Include="Script\BOJ\BOJ_21736_헌내기는 친구가 필요해.cs" />
     <Compile Include="Script\BOJ\BOJ_2583_영역_구하기.cs" />
     <Compile Include="Script\BOJ\BOJ_2750_수정렬하기.cs" />
