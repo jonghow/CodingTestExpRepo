@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Script\BOJ\BOJ_3040_백설_공주와_일곱_난쟁이.cs" />
+    <Compile Include="Script\BOJ\BOJ_2231_분해합.cs" />
     <Compile Include="Script\BOJ\BOJ_10828_스택.cs" />
     <Compile Include="Script\BOJ\BOJ_10972_다음순열_순열_FAIL.cs" />
     <Compile Include="Script\BOJ\BOJ_10973_이전순열_순열_FAIL.cs" />

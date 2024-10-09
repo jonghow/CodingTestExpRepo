@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\desktop\\codingtestexprepo\\csharp\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\boj\\boj_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\desktop\\codingtestexprepo\\csharp\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\boj\\boj_2231_\uBD84\uD574\uD569.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_2231_\uBD84\uD574\uD569.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\codingtestrepositorycsharp\\script\\boj\\boj_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774 - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774 - \uBCF5\uC0AC\uBCF8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\codingtestrepositorycsharp\\script\\boj\\boj_1057_\uD1A0\uB108\uBA3C\uD2B8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 197,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,20 +142,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774 - \uBCF5\uC0AC\uBCF8.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774 - \uBCF5\uC0AC\uBCF8.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774 - \uBCF5\uC0AC\uBCF8.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774 - \uBCF5\uC0AC\uBCF8.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774 - \uBCF5\uC0AC\uBCF8.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAswFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:45:17.614Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774.cs",
-              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774.cs",
-              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774.cs",
-              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774.cs",
-              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_3040_\uBC31\uC124_\uACF5\uC8FC\uC640_\uC77C\uACF1_\uB09C\uC7C1\uC774.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAADwv0kAAAARAAAA",
+              "Title": "BOJ_2231_\uBD84\uD574\uD569.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2231_\uBD84\uD574\uD569.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2231_\uBD84\uD574\uD569.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2231_\uBD84\uD574\uD569.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2231_\uBD84\uD574\uD569.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T11:43:13.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BOJ_1057_\uD1A0\uB108\uBA3C\uD2B8.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1057_\uD1A0\uB108\uBA3C\uD2B8.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1057_\uD1A0\uB108\uBA3C\uD2B8.cs",
@@ -163,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BOJ_19532_\uC218\uD559\uC740\uBE44\uB300\uBA74\uAC15\uC758\uC785\uB2C8\uB2E4_FAIL.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_19532_\uC218\uD559\uC740\uBE44\uB300\uBA74\uAC15\uC758\uC785\uB2C8\uB2E4_FAIL.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_19532_\uC218\uD559\uC740\uBE44\uB300\uBA74\uAC15\uC758\uC785\uB2C8\uB2E4_FAIL.cs",
@@ -175,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BOJ_2798_\uBE14\uB799\uC7AD.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2798_\uBE14\uB799\uC7AD.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2798_\uBE14\uB799\uC7AD.cs",
@@ -187,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "BOJ_2750_\uC218\uC815\uB82C\uD558\uAE30.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2750_\uC218\uC815\uB82C\uD558\uAE30.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2750_\uC218\uC815\uB82C\uD558\uAE30.cs",
@@ -199,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "BOJ_10972_\uB2E4\uC74C\uC21C\uC5F4_\uC21C\uC5F4_FAIL.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_10972_\uB2E4\uC74C\uC21C\uC5F4_\uC21C\uC5F4_FAIL.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_10972_\uB2E4\uC74C\uC21C\uC5F4_\uC21C\uC5F4_FAIL.cs",
@@ -211,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "BOJ_1389_A\u2192B.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1389_A\u2192B.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1389_A\u2192B.cs",
@@ -223,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "BOJ_7652_\uB098\uC774\uD2B8\uC758 \uC774\uB3D9.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_7652_\uB098\uC774\uD2B8\uC758 \uC774\uB3D9.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_7652_\uB098\uC774\uD2B8\uC758 \uC774\uB3D9.cs",
@@ -235,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "BOJ_1389.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1389.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1389.cs",
@@ -247,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "BOJ_1926_\uADF8\uB9BC.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1926_\uADF8\uB9BC.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1926_\uADF8\uB9BC.cs",
@@ -259,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Programmers_Nexon_3.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_3.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_3.cs",
@@ -271,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Programmers_Nexon_4.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_4.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_4.cs",
@@ -283,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Programmers_Nexon_2.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_2.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_2.cs",
@@ -295,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Programmers_Nexon_1.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_1.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_1.cs",
@@ -307,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Programmers_Nexon_5.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_5.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\HackerRank\\Programmers_Nexon_5.cs",
@@ -319,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index - \uBCF5\uC0AC\uBCF8.cs",
@@ -331,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Programmers_\uD0C0\uAC9F\uB118\uBC84.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uD0C0\uAC9F\uB118\uBC84.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uD0C0\uAC9F\uB118\uBC84.cs",
@@ -343,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2 - \uBCF5\uC0AC\uBCF8.cs",
@@ -355,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Programmers_H-Index.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index.cs",
@@ -367,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uCD5C\uC18C\uC9C1\uC0AC\uAC01\uD615.cs",
@@ -379,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0_2.cs",
@@ -391,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Programmers_\uC870\uC774\uC2DC\uD2F0.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uC870\uC774\uC2DC\uD2F0.cs",
@@ -403,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_\uAC8C\uC784\uB9F5_\uCD5C\uB2E8\uAC70\uB9AC.cs",
@@ -415,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Programmers_K\uBC88\uC9F8\uC218.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_K\uBC88\uC9F8\uC218.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_K\uBC88\uC9F8\uC218.cs",
@@ -427,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2\uBC88\uC9F8.cs",
@@ -439,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\Programmers\\Programmers_H-Index_\uB2E4\uB978\uD480\uC774_2.cs",
@@ -451,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_2824_Count Pairs Whose Sum is Less than Target.cs",
@@ -463,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LeetCode_1025.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\LeetCode\\LeetCode_1025.cs",
@@ -475,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Program.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Program.cs",
