@@ -72,7 +72,7 @@ namespace CodingTestProj
 
                 var ret = _val1 + _val2 + _val3;
 
-                while (ret > 10)
+                while (ret >= 10)
                 {
                     ret %= 10;
                 }
@@ -81,7 +81,7 @@ namespace CodingTestProj
                 {
                     _lastNumb = ret;
 
-                    if (_ret <= _person)
+                    //if (_ret <= _person)
                         _ret = _person;
                 }
 
