@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_1065_\uD55C\uC218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\desktop\\codingtestexprepo\\csharp\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\boj\\boj_2303_\uC22B\uC790_\uAC8C\uC784.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\codingtestrepositorycsharp\\script\\boj\\boj_2303_\uC22B\uC790_\uAC8C\uC784.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_2303_\uC22B\uC790_\uAC8C\uC784.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1065_\uD55C\uC218.cs",
               "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1065_\uD55C\uC218.cs",
               "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_1065_\uD55C\uC218.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAgwDMAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T14:44:00.513Z",
               "EditorCaption": ""
@@ -151,8 +151,7 @@
               "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_2303_\uC22B\uC790_\uAC8C\uC784.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAUwFkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T14:43:32.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T14:43:32.559Z"
             },
             {
               "$type": "Document",
