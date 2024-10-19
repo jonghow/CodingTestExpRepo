@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\BOJ\BOJ_1235_학생_번호.cs" />
     <Compile Include="Script\BOJ\BOJ_1059_좋은_구간.cs" />
     <Compile Include="Script\BOJ\BOJ_1251_단어_나누기.cs" />
     <Compile Include="Script\BOJ\BOJ_1065_한수.cs" />
