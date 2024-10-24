@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Script\BOJ\BOJ_1018_체스판_다시칠하기.cs" />
+    <Compile Include="Script\BOJ\BOJ_18420_근손실.cs" />
     <Compile Include="Script\BOJ\BOJ_17614_369.cs" />
     <Compile Include="Script\BOJ\BOJ_5555_반지.cs" />
     <Compile Include="Script\BOJ\BOJ_1235_학생_번호.cs" />
