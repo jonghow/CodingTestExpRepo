@@ -45,8 +45,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\BOJ\BOJ_1075_나누기.cs" />
+    <Compile Include="Script\BOJ\BOJ_14501_퇴사.cs" />
+    <Compile Include="Script\BOJ\6.cs" />
+    <Compile Include="Script\BOJ\5.cs" />
+    <Compile Include="Script\BOJ\4.cs" />
+    <Compile Include="Script\BOJ\3.cs" />
+    <Compile Include="Script\BOJ\2.cs" />
     <Compile Include="Script\BOJ\BOJ_1018_체스판_다시칠하기.cs" />
-    <Compile Include="Script\BOJ\BOJ_1213_팰린드롬만들기.cs" />
+    <Compile Include="Script\BOJ\BOJ_1213_팰린드롬만들기 - 복사본.cs" />
+    <Compile Include="Script\BOJ\1.cs" />
     <Compile Include="Script\BOJ\BOJ_18420_근손실.cs" />
     <Compile Include="Script\BOJ\BOJ_17614_369.cs" />
     <Compile Include="Script\BOJ\BOJ_5555_반지.cs" />
