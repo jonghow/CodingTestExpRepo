@@ -23,7 +23,7 @@ namespace CodingTestProj
 
     public class Solution
     {
-        public List<int> _retList = new List<int>(); // 완전제곱수 모음
+        public List<int> _retList = new List<int>(); // 완전제곱수 모음.
 
         public int _retSum;
         public int _retSmall;
