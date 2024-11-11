@@ -45,10 +45,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\BOJ\BOJ_10974_모든_순열.cs" />
+    <Compile Include="Script\BOJ\BOJ_5568_카드놓기_DFS.cs" />
+    <Compile Include="Script\BOJ\BOJ_5568_카드놓기.cs" />
     <Compile Include="Script\BOJ\BOJ_15649_N과M_1.cs" />
     <Compile Include="Script\BOJ\BOJ_1977_완전제곱수.cs" />
     <Compile Include="Script\BOJ\BOJ_1075_나누기.cs" />
-    <Compile Include="Script\BOJ\BOJ_14501_퇴사.cs" />
+    <Compile Include="Script\BOJ\BOJ_14501_퇴사_FAIL.cs" />
     <Compile Include="Script\BOJ\6.cs" />
     <Compile Include="Script\BOJ\5.cs" />
     <Compile Include="Script\BOJ\4.cs" />
