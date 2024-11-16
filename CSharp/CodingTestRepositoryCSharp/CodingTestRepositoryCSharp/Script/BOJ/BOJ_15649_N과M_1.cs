@@ -1,73 +1,83 @@
-﻿//using System;
-//using System.Collections;
-//using System.Collections.Generic;
-//using System.Xml.Linq;
-//using static CodingTestProj.Program;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Xml.Linq;
+using static CodingTestProj.Program;
 
-/////*
-//// * Difficulty : 
-//// * URL : https://www.acmicpc.net/problem/15649
-////  * Time : 
-//// */
+///*
+// * Difficulty : 
+// * URL : https://www.acmicpc.net/problem/15649
+//  * Time : 
+// */
 
-//namespace CodingTestProj
-//{
-//    internal class Program
-//    {
-//        static void Main(string[] args)
-//        {
-//            Solution solu = new Solution();
-//            solu.solve();
-//        }
-//    }
+namespace CodingTestProj
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Solution solu = new Solution();
+            solu.solve();
+        }
+    }
 
-//    public class Solution
-//    {
-//        public List<int> _retList = new List<int>(); // 완전제곱수 모음.
+    public class Solution
+    {
+        public const int _max = 9;
+        public int _n;
+        public int _m;
 
-//        public int _retSum;
-//        public int _retSmall;
+        public int[] _per;
+        public int[] _arr;
 
-//        public int _n;
-//        public int _m;
+        public int _curPos;
 
-//        public void solve()
-//        {
-//            _retSmall = int.MaxValue;
-//            _n = int.Parse(Console.ReadLine());
-//            _m = int.Parse(Console.ReadLine());
+        public bool[] _isVisit;
 
-//            int idx = 0;
-//            while (true)
-//            {
-//                int _pow = (int)Math.Pow(idx, 2);
+        public void solve()
+        {
+            string[] _input = Console.ReadLine().Split(' ');
+            _n = int.Parse(_input[0]);
+            _m = int.Parse(_input[1]);
 
-//                if (_pow > _m)
-//                    break;
+            _isVisit = new bool[_max];
+            _arr = new int[_max];
+            _per = new int[_max];
 
-//                if(_pow >= _n && _pow <= _m)
-//                {
-//                    _retList.Add(_pow);
-//                    _retSum += _pow;
+            for (int i = 0; i < 9; ++i)
+                _arr[i] = i + 1;
 
-//                    if (_retSmall >= _pow)
-//                        _retSmall = _pow;
+            dfs(0);
+        }
 
+        public void dfs(int _cnt)
+        {
+            if (_cnt >= _m)
+            {
+                for(int i = 0; i < _cnt; ++i)
+                {
+                    Console.Write(_per[i]);
 
-//                }
+                    if (i != _cnt)
+                        Console.Write(" ");
+                }
 
-//                idx++;
-//            }
+                Console.WriteLine();
+            }
+            else
+            {
 
-//            if(_retList.Count > 0 )
-//            {
-//                Console.WriteLine(_retSum);
-//                Console.WriteLine(_retSmall);
-//            }
-//            else
-//            {
-//                Console.WriteLine(-1);
-//            }
-//        }
-//    }
-//}
+                for (int i = 0; i < _n; ++i)
+                {
+                    if (_isVisit[i] == false)
+                    {
+                        _isVisit[i] = true;
+                        _per[_cnt] = _arr[i];
+                        dfs(_cnt + 1);
+                        _isVisit[i] = false;
+                    }
+                }
+            }
+        }
+    }
+}
