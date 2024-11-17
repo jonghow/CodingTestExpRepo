@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\desktop\\codingtestexprepo\\csharp\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\boj\\boj_15651_n\uACFCm_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|c:\\users\\jonghow\\desktop\\codingtestexprepo\\csharp\\codingtestrepositorycsharp\\codingtestrepositorycsharp\\script\\boj\\boj_15649_n\uACFCm_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_15649_n\uACFCm_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\codingtestrepositorycsharp\\script\\boj\\boj_15651_n\uACFCm_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_15651_n\uACFCm_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\codingtestrepositorycsharp\\script\\boj\\boj_15649_n\uACFCm_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_15649_n\uACFCm_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\codingtestrepositorycsharp\\script\\boj\\boj_15649_n\uACFCm_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|solutionrelative:codingtestrepositorycsharp\\script\\boj\\boj_15649_n\uACFCm_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8485BC6-55A0-48E9-A515-830BE3C42957}|CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp.csproj|C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\codingtestrepositorycsharp\\script\\boj\\boj_10974_\uBAA8\uB4E0_\uC21C\uC5F4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 197,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -172,20 +172,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BOJ_15651_N\uACFCM_3.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15651_N\uACFCM_3.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15651_N\uACFCM_3.cs",
               "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15651_N\uACFCM_3.cs",
               "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15651_N\uACFCM_3.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAE4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T14:32:02.827Z",
+              "WhenOpened": "2024-11-17T14:32:02.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BOJ_15649_N\uACFCM_1.cs",
+              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_1.cs",
+              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_1.cs",
+              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_1.cs",
+              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:58:33.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BOJ_15649_N\uACFCM_2.cs",
               "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_2.cs",
               "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_2.cs",
@@ -194,18 +206,6 @@
               "ViewState": "AQIAACsAAAAAAAAAAAAYwFIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:15:05.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BOJ_15649_N\uACFCM_1.cs",
-              "DocumentMoniker": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_1.cs",
-              "RelativeDocumentMoniker": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_1.cs",
-              "ToolTip": "C:\\Users\\Jonghow\\Desktop\\CodingTestExpRepo\\CSharp\\CodingTestRepositoryCSharp\\CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_1.cs",
-              "RelativeToolTip": "CodingTestRepositoryCSharp\\Script\\BOJ\\BOJ_15649_N\uACFCM_1.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAADwv1IAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:58:33.672Z"
             },
             {
               "$type": "Document",

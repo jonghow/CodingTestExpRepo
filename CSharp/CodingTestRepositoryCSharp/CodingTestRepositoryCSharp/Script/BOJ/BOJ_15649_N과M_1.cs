@@ -3,11 +3,12 @@
 //using System.Collections.Generic;
 //using System.Xml.Linq;
 //using static CodingTestProj.Program;
+//using System.Text;
 
 /////*
-//// * Difficulty : 
+//// * Difficulty : Easy
 //// * URL : https://www.acmicpc.net/problem/15649
-////  * Time : 
+////  * Time : X
 //// */
 
 //namespace CodingTestProj
@@ -34,8 +35,11 @@
 
 //        public bool[] _isVisit;
 
+//        public StringBuilder _sb;
+
 //        public void solve()
 //        {
+//            _sb = new StringBuilder();
 //            string[] _input = Console.ReadLine().Split(' ');
 //            _n = int.Parse(_input[0]);
 //            _m = int.Parse(_input[1]);
@@ -48,21 +52,22 @@
 //                _arr[i] = i + 1;
 
 //            dfs(0);
+//            Console.WriteLine(_sb.ToString());
 //        }
 
 //        public void dfs(int _cnt)
 //        {
 //            if (_cnt >= _m)
 //            {
-//                for(int i = 0; i < _cnt; ++i)
+//                for (int i = 0; i < _cnt; ++i)
 //                {
-//                    Console.Write(_per[i]);
+//                    _sb.Append(_per[i]);
 
-//                    if (i != _cnt)
-//                        Console.Write(" ");
+//                    if (i != _cnt-1)
+//                        _sb.Append(" ");
 //                }
 
-//                Console.WriteLine();
+//                _sb.AppendLine();
 //            }
 //            else
 //            {
