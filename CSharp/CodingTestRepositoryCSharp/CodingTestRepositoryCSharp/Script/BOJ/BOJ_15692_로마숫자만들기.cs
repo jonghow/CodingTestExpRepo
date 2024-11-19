@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Linq;
-using static CodingTestProj.Program;
 using System.Text;
 
-///*
-// * Difficulty : Easy
-// * URL : https://www.acmicpc.net/problem/15652
-//  * Time : 21m
-// */
+/////*
+//// * Difficulty : Middle ~ hard
+//// * URL : https://www.acmicpc.net/problem/16922
+////  * Time : 1h over
+//// */
 
-namespace CodingTestProj
+namespace Test
 {
     internal class Program
     {
@@ -22,61 +19,72 @@ namespace CodingTestProj
         }
     }
 
-
     public class Solution
     {
-        public const int max = 9;
+        public const int maxValues = 50;
+        public const int max = 20;
         public int _n;
         public int _m;
+        public char[] _arr;
+        public char[] _per;
+        public bool[] _checkCnt;
 
-        public int[] _arr;
-        public int[] _per;
-
-        public StringBuilder _sb;
+        public int _ret = 0;
 
         public void solve()
+
         {
-            _sb = new StringBuilder();
-            string[] _in = Console.ReadLine().Split(' ');
+            _checkCnt = new bool[(maxValues * max) + 1];
+            string _in = Console.ReadLine();
+            _n = 4;
+            _m = int.Parse(_in.ToString());
 
-            _n = int.Parse(_in[0].ToString());
-            _m = int.Parse(_in[1].ToString());
+            _arr = new char[4];
+            _arr[0] = 'I';
+            _arr[1] = 'V';
+            _arr[2] = 'X';
+            _arr[3] = 'L';
 
-            _arr = new int[max];
-
-            for (int i = 0; i < max; ++i)
-                _arr[i] = i + 1;
-
-            _per = new int[max];
+            _per = new char[max];
 
             dfs(0, 0, 0);
 
-            Console.Write(_sb.ToString());
+            Console.Write(_ret);
         }
-        public void dfs(int cnt, int pos, int prev)
+
+        public void dfs(int cnt, int pos, int calc)
         {
             if (cnt >= _m)
             {
-                for (int i = 0; i < cnt; ++i)
+                if (_checkCnt[calc] == false)
                 {
-                    _sb.Append(_per[i]);
-
-                    if (i != cnt - 1)
-                        _sb.Append(" ");
+                    _checkCnt[calc] = true;
+                    ++_ret;
                 }
-
-                _sb.AppendLine();
             }
             else
             {
-                for (int i = 0; i < _n; ++i)
-                {
-                    if (_arr[i] < prev) continue;
 
-                    _per[pos] = _arr[i];
-                    dfs(cnt + 1, pos + 1, _arr[i]);
+                for (int i = pos; i < _n; ++i)
+                {
+                    dfs(cnt + 1, i, calc + GetVal(_arr[i]));
                 }
             }
         }
+
+        public int GetVal(char a)
+        {
+            if (a == 'I')
+                return 1;
+            if (a == 'V')
+                return 5;
+            if (a == 'X')
+                return 10;
+            if (a == 'L')
+                return 50;
+
+            return 0;
+        }
     }
 }
+
