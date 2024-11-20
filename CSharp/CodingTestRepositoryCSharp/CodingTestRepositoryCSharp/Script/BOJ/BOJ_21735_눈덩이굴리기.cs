@@ -48,23 +48,20 @@ namespace Test
 
         public void dfs(int cnt, int pos, float calc, bool isThrow)
         {
-            if (cnt >= _m || pos > _n)
+            if (cnt >= _m || pos >= _n)
             {
                 if (_ret < calc)
                     _ret = calc;
             }
             else
             {
-                for (int i = pos; i < _m; ++i)
-                {
                     // 1번으로 수행했을 때, 
-                    dfs(cnt + 1, i + 1, calc + _arr[i], false);
+                    dfs(cnt + 1, pos + 1, calc + _arr[pos], false);
 
                     // 2번으로 수행했을 때,
                     float calcThrow = calc * 0.5f;
-                    int valBasedLength = ((i + 1) >= _arr.Length) == true ? 0 : _arr[i + 1];
-                    dfs(cnt + 1, i + 2,  (float)Math.Floor(calcThrow + valBasedLength), true);
-                }
+                    int valBasedLength = ((pos + 1) >= _arr.Length) == true ? 0 : _arr[pos + 1];
+                    dfs(cnt + 1, pos + 2,  (float)Math.Floor(calcThrow + valBasedLength), true);
             }
         }
     }
