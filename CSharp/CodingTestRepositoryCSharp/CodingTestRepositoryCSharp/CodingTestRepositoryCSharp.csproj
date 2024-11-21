@@ -81,6 +81,7 @@
     <Compile Include="Script\BOJ\BOJ_1926_그림.cs" />
     <Compile Include="Script\BOJ\BOJ_19532_수학은비대면강의입니다_FAIL.cs" />
     <Compile Include="Script\BOJ\BOJ_1977_완전제곱수.cs" />
+    <Compile Include="Script\BOJ\BOJ_15654_N과M_5.cs" />
     <Compile Include="Script\BOJ\BOJ_21735_눈덩이굴리기.cs" />
     <Compile Include="Script\BOJ\BOJ_21736_헌내기는 친구가 필요해.cs" />
     <Compile Include="Script\BOJ\BOJ_2231_분해합.cs" />
