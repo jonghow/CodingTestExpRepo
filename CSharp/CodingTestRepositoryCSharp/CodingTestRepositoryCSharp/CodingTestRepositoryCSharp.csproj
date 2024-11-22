@@ -74,6 +74,7 @@
     <Compile Include="Script\BOJ\BOJ_15649_N과M_2.cs" />
     <Compile Include="Script\BOJ\BOJ_15651_N과M_3.cs" />
     <Compile Include="Script\BOJ\BOJ_15651_N과M_4.cs" />
+    <Compile Include="Script\BOJ\BOJ_15655_N과M_6.cs" />
     <Compile Include="Script\BOJ\BOJ_15692_로마숫자만들기.cs" />
     <Compile Include="Script\BOJ\BOJ_16918_봄버맨_BFS.cs" />
     <Compile Include="Script\BOJ\BOJ_17614_369.cs" />
