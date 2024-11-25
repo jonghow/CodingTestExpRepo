@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 using System.Text;
 
 /////*
 //// * Difficulty : 
 //// * URL : https://www.acmicpc.net/problem/15656
 ////  * Time : 
+///
+/// BOJ_15654_N과 M (7)
 //// */
 ///
 namespace Test
@@ -21,106 +25,78 @@ namespace Test
 
     public class Solution
     {
-        public const int _max = 9;
-        public const int _valmax = 10001;
+        public const int _max = 8;
         public int _n;
         public int _m;
         public int[] _arr;
         public int[] _per;
 
-        public bool[] _isVisit;
-
         public HashSet<string> _ret;
+
+        public StringBuilder _sb;
+        public StringBuilder _compareSb;
+
+        /*
+         * 
+         * 
+         * 
+        3 1
+        4 5 2
+         * 
+        4 2
+        9 8 7 1
+         * 
+         */
 
         public void solve()
         {
             _ret = new HashSet<string>();
+            _sb = new StringBuilder();
+            _compareSb = new StringBuilder();
             string[] _in = Console.ReadLine().Split(' ');
             _n = int.Parse(_in[0].ToString());
             _m = int.Parse(_in[1].ToString());
-            _isVisit = new bool[_valmax];
 
             _in = Console.ReadLine().Split(' ');
-            _arr = new int[_max];
+            _arr = new int[_n];
 
             for (int i = 0; i < _in.Length; ++i)
                 _arr[i] = Int32.Parse(_in[i]);
 
+            List<int> _tempInt = new List<int>(_arr);
+            _tempInt.Sort(Sorted);
+            _arr = _tempInt.ToArray();
+
             _per = new int[_m];
+            BT(0, ref _per, 0, 0, "");
 
-            List<int> _temp = new List<int>(_arr);
-            _temp.Sort(Sorted);
-            _arr = _temp.ToArray();
+            Console.Write(_sb.ToString());
+        }
+        public int Sorted(int n, int m)
+        {
+            return n.CompareTo(m);
+        }
 
-            BT(ref _arr, ref _per, 0, 0);
-
-            int index = 0;
-            foreach (string s in _ret)
+        public void BT(int pos, ref int[] c, int cnt, int depth, string _s)
+        {
+            if (cnt >= _m)
             {
-                Console.Write(s);
+                _s = _s.Remove(0, 1);
 
-                if (index != _ret.Count - 1)
-                    Console.WriteLine();
-            }
-        }
-
-        public int Sorted(string _item1, string _item2)
-        {
-            bool _isEmptyitem1 = _item1 == null || _item1.Length == 0 ? true : false;
-            bool _isEmptyitem2 = _item2 == null || _item2.Length == 0 ? true : false;
-
-            if (_item1 == null)
-                _item1 = " ";
-
-            if (_item2 == null)
-                _item2 = " ";
-
-            if (_isEmptyitem1 != _isEmptyitem2)
-                return _isEmptyitem1.CompareTo(_isEmptyitem2);
-
-            return _item1.CompareTo(_item2);
-        }
-
-        public int Sorted(int _item1, int _item2)
-        {
-            bool _isEmptyitem1 = _item1 == 0 ? true : false;
-            bool _isEmptyitem2 = _item2 == 0 ? true : false;
-
-            if (_isEmptyitem1 != _isEmptyitem2)
-                return _isEmptyitem1.CompareTo(_isEmptyitem2);
-
-            return _item1.CompareTo(_item2);
-        }
-
-        public void BT(ref int[] _arr, ref int[] _per, int _cnt, int _pos)
-        {
-            if (_cnt >= _m)
-            {
-                string _st = string.Empty;
-
-                for (int i = 0; i < _cnt; ++i)
+                if (_ret.Contains(_s) == false)
                 {
-                    _st += _per[i];
-
-                    if (i != _cnt - 1)
-                        _st += " ";
+                    _ret.Add(_s);
+                    _sb.Append(_s);
+                    _sb.AppendLine();
                 }
-
-                if (_ret.Contains(_st) == false)
-                    _ret.Add(_st);
             }
+            else if (pos == _arr.Length) return;
             else
             {
-                for (int i = 0; i < _n; ++i)
+                for (int i = 0; i < _arr.Length; ++i)
                 {
-                    if (_isVisit[Int32.Parse(_arr[i].ToString())] == false)
-                    {
-                        _isVisit[Int32.Parse(_arr[i].ToString())] = true;
-                        _per[_pos] = _arr[i];
-                        BT(ref _arr, ref _per, _cnt + 1, _pos + 1);
-
-                        _isVisit[Int32.Parse(_arr[i].ToString())] = false;
-                    }
+                    c[pos] = _arr[i];
+                    BT(pos + 1, ref c, cnt + 1, depth + 1, _s + $" {_arr[i]}");
                 }
             }
         }
