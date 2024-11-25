@@ -8,7 +8,7 @@
 //////  * Time : 
 ////// */
 /////
-//namespace Test
+//namespace CodingTestProj
 //{
 //    internal class Program
 //    {

@@ -8,7 +8,7 @@
 //////  * Time : 1h over
 ////// */
 /////
-//namespace Test
+//namespace CodingTestProj
 //{
 //    internal class Program
 //    {
