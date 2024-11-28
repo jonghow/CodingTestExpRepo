@@ -8,7 +8,7 @@ using System.Text;
 ///*
 // * Difficulty : Middle
 // * URL : https://www.acmicpc.net/problem/15664
-//  * Time : 
+//  * Time : 44m
 // */
 
 namespace CodingTestProj
@@ -28,24 +28,22 @@ namespace CodingTestProj
         public int _n;
         public int _m;
         public int[] _arr;
-        public bool[] _isVisited;
-
+        public bool[] _visit;
 
         public StringBuilder _sb;
-        public StringBuilder _sbc;
 
         public HashSet<string> _hs;
         public void solve()
         {
             _hs = new HashSet<string>();
             string[] _input = Console.ReadLine().Split(' ');
-            _isVisited = new bool[_max];
 
             _n = int.Parse(_input[0]);
             _m = int.Parse(_input[1]);
+
             _input = Console.ReadLine().Split(' ');
+            _visit = new bool[_max];
             _sb = new StringBuilder();
-            _sbc = new StringBuilder();
             _arr = new int[_n];
             int[] _per = new int[_m];
 
@@ -54,43 +52,36 @@ namespace CodingTestProj
 
             Array.Sort(_arr);
 
-            BT(0, ref _per);
+            BT(0, ref _per,0);
             Console.Write(_sb.ToString());
         }
 
-        public void BT(int cnt, ref int[] _c)
+        public void BT(int pos, ref int[] _c, int depth)
         {
-            if (cnt == _m)
+            if (pos == _m)
             {
-                _sbc.Clear();
-
-                for (int i = 0; i < cnt; ++i)
+                string _s = string.Empty;
+                for (int i = 0; i < pos; ++i)
                 {
-                    _sbc.Append(_c[i]);
+                    _s += _c[i];
 
-                    if (i != cnt - 1)
-                        _sbc.Append(' ');
+                    if (i != pos - 1)
+                        _s += ' ';
                 }
 
-                if (_hs.Contains(_sbc.ToString()) == false)
+                if (_hs.Contains(_s) == false)
                 {
-                    _hs.Add(_sbc.ToString());
-                    _sb.Append(_sbc.ToString());
-                    _sb.AppendLine();
+                    _hs.Add(_s);
+                    _sb.AppendLine(_s);
                 }
             }
+            else if (depth == _arr.Length) return;
             else
             {
-                for (int i = 0; i < _n; ++i)
-                {
-                    if (_isVisited[i] == false)
-                    {
-                        _c[cnt] = _arr[i];
-                        _isVisited[i] = true;
-                        BT(cnt + 1, ref _c);
-                        _isVisited[i] = false;
-                    }
-                }
+                _c[pos] = _arr[depth];
+
+                BT(pos + 1, ref _c, depth + 1);
+                BT(pos, ref _c, depth + 1);
             }
         }
     }
