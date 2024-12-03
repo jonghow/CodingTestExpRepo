@@ -8,7 +8,7 @@ using System.Text;
 ///*
 // * Difficulty : Middle
 // * URL : https://www.acmicpc.net/problem/15665
-//  * Time : 34
+//  * Time : 34mm
 // */
 
 namespace CodingTestProj
