@@ -1,89 +1,89 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml.Linq;
-using static CodingTestProj.Program;
-using System.Text;
+﻿//using System;
+//using System.Collections;
+//using System.Collections.Generic;
+//using System.Xml.Linq;
+//using static CodingTestProj.Program;
+//using System.Text;
 
-///*
-// * Difficulty : Middle
-// * URL : https://www.acmicpc.net/problem/15665
-//  * Time : 10m
-// */
+/////*
+//// * Difficulty : Middle
+//// * URL : https://www.acmicpc.net/problem/15665
+////  * Time : 10m
+//// */
 
-namespace CodingTestProj
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Solution solu = new Solution();
-            solu.solve();
-        }
-    }
+//namespace CodingTestProj
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Solution solu = new Solution();
+//            solu.solve();
+//        }
+//    }
 
-    public class Solution
-    {
-        public const int _max = 8;
-        public int _n;
-        public int _m;
-        public int[] _arr;
-        public bool[] _visit;
+//    public class Solution
+//    {
+//        public const int _max = 8;
+//        public int _n;
+//        public int _m;
+//        public int[] _arr;
+//        public bool[] _visit;
 
-        public StringBuilder _sb;
-        public HashSet<string> _hs;
+//        public StringBuilder _sb;
+//        public HashSet<string> _hs;
 
-        public void solve()
-        {
-            _hs = new HashSet<string>();
-            string[] _input = Console.ReadLine().Split(' ');
+//        public void solve()
+//        {
+//            _hs = new HashSet<string>();
+//            string[] _input = Console.ReadLine().Split(' ');
 
-            _n = int.Parse(_input[0]);
-            _m = int.Parse(_input[1]);
+//            _n = int.Parse(_input[0]);
+//            _m = int.Parse(_input[1]);
 
-            _input = Console.ReadLine().Split(' ');
-            _visit = new bool[_max];
-            _sb = new StringBuilder();
-            _arr = new int[_n];
-            int[] _per = new int[_m];
+//            _input = Console.ReadLine().Split(' ');
+//            _visit = new bool[_max];
+//            _sb = new StringBuilder();
+//            _arr = new int[_n];
+//            int[] _per = new int[_m];
 
-            for (int i = 0; i < _arr.Length; ++i)
-                _arr[i] = int.Parse(_input[i]);
+//            for (int i = 0; i < _arr.Length; ++i)
+//                _arr[i] = int.Parse(_input[i]);
 
-            Array.Sort(_arr);
+//            Array.Sort(_arr);
 
-            BT(0, ref _per);
-            Console.Write(_sb.ToString());
-        }
+//            BT(0, ref _per);
+//            Console.Write(_sb.ToString());
+//        }
 
-        public void BT(int pos, ref int[] _c)
-        {
-            if (pos == _m)
-            {
-                string _s = string.Empty;
-                for (int i = 0; i < pos; ++i)
-                {
-                    _s += _c[i];
+//        public void BT(int pos, ref int[] _c)
+//        {
+//            if (pos == _m)
+//            {
+//                string _s = string.Empty;
+//                for (int i = 0; i < pos; ++i)
+//                {
+//                    _s += _c[i];
 
-                    if (i != pos - 1)
-                        _s += ' ';
-                }
+//                    if (i != pos - 1)
+//                        _s += ' ';
+//                }
 
-                if (_hs.Contains(_s) == false)
-                {
-                    _hs.Add(_s);
-                    _sb.AppendLine(_s);
-                }
-            }
-            else
-            {
-                for(int i = 0; i < _n; ++i)
-                {
-                    _c[pos] = _arr[i];
+//                if (_hs.Contains(_s) == false)
+//                {
+//                    _hs.Add(_s);
+//                    _sb.AppendLine(_s);
+//                }
+//            }
+//            else
+//            {
+//                for(int i = 0; i < _n; ++i)
+//                {
+//                    _c[pos] = _arr[i];
 
-                    BT(pos + 1, ref _c);
-                }
-            }
-        }
-    }
-}
+//                    BT(pos + 1, ref _c);
+//                }
+//            }
+//        }
+//    }
+//}
