@@ -8,7 +8,7 @@ using System.Text;
 ///*
 // * Difficulty : Middle
 // * URL : https://www.acmicpc.net/problem/15665
-//  * Time : 34mm
+//  * Time : 10m
 // */
 
 namespace CodingTestProj
@@ -31,8 +31,8 @@ namespace CodingTestProj
         public bool[] _visit;
 
         public StringBuilder _sb;
-
         public HashSet<string> _hs;
+
         public void solve()
         {
             _hs = new HashSet<string>();
@@ -52,11 +52,11 @@ namespace CodingTestProj
 
             Array.Sort(_arr);
 
-            BT(0, ref _per,0);
+            BT(0, ref _per);
             Console.Write(_sb.ToString());
         }
 
-        public void BT(int pos, ref int[] _c, int depth)
+        public void BT(int pos, ref int[] _c)
         {
             if (pos == _m)
             {
@@ -75,13 +75,14 @@ namespace CodingTestProj
                     _sb.AppendLine(_s);
                 }
             }
-            else if (depth == _arr.Length) return;
             else
             {
-                _c[pos] = _arr[depth];
+                for(int i = 0; i < _n; ++i)
+                {
+                    _c[pos] = _arr[i];
 
-                BT(pos + 1, ref _c, depth + 1);
-                BT(pos, ref _c, depth + 1);
+                    BT(pos + 1, ref _c);
+                }
             }
         }
     }
