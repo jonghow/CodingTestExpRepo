@@ -101,6 +101,7 @@
     <Compile Include="Script\BOJ\BOJ_3040_백설_공주와_일곱_난쟁이.cs" />
     <Compile Include="Script\BOJ\BOJ_5555_반지.cs" />
     <Compile Include="Script\BOJ\BOJ_5568_카드놓기.cs" />
+    <Compile Include="Script\BOJ\BOJ_5568_카드놓기_Repeat.cs" />
     <Compile Include="Script\BOJ\BOJ_5568_카드놓기_DFS.cs" />
     <Compile Include="Script\BOJ\BOJ_7652_나이트의 이동.cs" />
     <Compile Include="Script\HackerRank\Programmers_Nexon_3.cs" />
