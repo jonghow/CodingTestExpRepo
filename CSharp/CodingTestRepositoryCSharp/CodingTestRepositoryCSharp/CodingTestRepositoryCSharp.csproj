@@ -75,7 +75,7 @@
     <Compile Include="Script\BOJ\BOJ_15651_N과M_3.cs" />
     <Compile Include="Script\BOJ\BOJ_15651_N과M_4.cs" />
     <Compile Include="Script\BOJ\BOJ_15663_N과M_9.cs" />
-    <Compile Include="Script\BOJ\BOJ_15664_N과M_12 - 복사본.cs" />
+    <Compile Include="Script\BOJ\BOJ_2992_크면서_작은_수.cs" />
     <Compile Include="Script\BOJ\BOJ_15664_N과M_12.cs" />
     <Compile Include="Script\BOJ\BOJ_15664_N과M_11.cs" />
     <Compile Include="Script\BOJ\BOJ_15664_N과M_10.cs" />

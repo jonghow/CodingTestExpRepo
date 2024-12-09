@@ -6,9 +6,9 @@
 //using System.Text;
 
 /////*
-//// * Difficulty : Middle
-//// * URL : https://www.acmicpc.net/problem/15666
-////  * Time : 5m 54s
+//// * Difficulty : 
+//// * URL : https://www.acmicpc.net/problem/2992
+////  * Time : 
 //// */
 
 //namespace CodingTestProj
