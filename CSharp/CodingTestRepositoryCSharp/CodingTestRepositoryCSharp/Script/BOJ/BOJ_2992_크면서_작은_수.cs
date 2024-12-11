@@ -6,9 +6,9 @@ using static CodingTestProj.Program;
 using System.Text;
 
 ///*
-// * Difficulty : 
+// * Difficulty : Easy ~ Middle
 // * URL : https://www.acmicpc.net/problem/2992
-//  * Time : 
+//  * Time : 29m
 // */
 
 namespace CodingTestProj
@@ -24,66 +24,104 @@ namespace CodingTestProj
 
     public class Solution
     {
-        public const int _max = 8;
         public int _n;
         public int _m;
         public int[] _arr;
         public bool[] _visit;
+        public int _Count; // 자릿수
 
-        public StringBuilder _sb;
-        public HashSet<string> _hs;
+        public int[] _c;
+
+        public List<int> _Lt_= new List<int>();
+        public HashSet<int> _hs_ret = new HashSet<int>();
+
         public void solve()
         {
-            _hs = new HashSet<string>();
-            string[] _input = Console.ReadLine().Split(' ');
+            _Count = 0;
+            _n = int.Parse(Console.ReadLine());
+            int _copyN = _n;
 
-            _n = int.Parse(_input[0]);
-            _m = int.Parse(_input[1]);
+            while(true)
+            {
+                if (_copyN == 0)
+                    break;
 
-            _input = Console.ReadLine().Split(' ');
-            _visit = new bool[_max];
-            _sb = new StringBuilder();
-            _arr = new int[_n];
-            int[] _c = new int[_m];
+                int _val = _copyN % 10;
+                _copyN /= 10;
+                _Lt_.Add(_val);
+                ++_Count;
+            }
 
-            for (int i = 0; i < _arr.Length; ++i)
-                _arr[i] = int.Parse(_input[i]);
+            _Lt_.Reverse();
+            _c = new int[_Lt_.Count];
+            _m = _Lt_.Count;
 
-            Array.Sort(_arr);
+            BT(0, ref _c);
 
-            BT(0, ref _c, -1);
-            Console.Write(_sb.ToString());
+            List<int> _a = new List<int>();
+            int _ret = 1000000;
+
+            foreach(var pair in _hs_ret)
+            {
+                if(pair > _n)
+                {
+                    _a.Clear();
+
+                    int _v = pair;
+                    while (true)
+                    {
+                        if (_v == 0)
+                            break;
+
+                        int _val = _v % 10;
+                        _v /= 10;
+                        _a.Add(_val);
+                    }
+
+                    for(int i = 0; i < _Lt_.Count; ++i)
+                    {
+                        if (_a.Contains(_Lt_[i]) == true)
+                        {
+                            _a.Remove(_Lt_[i]);
+                        }
+                    }
+
+                    if (_a.Count != 0)
+                        continue;
+
+                    if(_n < _ret && _ret > pair)
+                    {
+                        _ret = pair;
+                    }
+                }
+            }
+
+            _ret = _ret == 1000000 ? 0 : _ret;
+            Console.WriteLine(_ret);
         }
 
-        public void BT(int pos, ref int[] _c, int _Prev)
+        public void BT(int cnt, ref int[] _c)
         {
-            if (pos == _m)
+            if(cnt == _m)
             {
-                string _s = string.Empty;
+                int val = (int)Math.Pow(10, _Count-1);
+                int _retVal = 0;
 
-                for (int i = 0; i < _c.Length; ++i)
+                for(int i = 0; i < cnt; ++i)
                 {
-                    _s += _c[i];
-
-                    if (i != _c.Length - 1)
-                        _s += ' ';
+                    _retVal += _c[i] * val;
+                    val /= 10;
                 }
 
-                if (!_hs.Contains(_s))
-                {
-                    _hs.Add(_s);
-                    _sb.Append(_s);
-                    _sb.AppendLine();
-                }
+                if(!_hs_ret.Contains(_retVal))
+                    _hs_ret.Add(_retVal);
             }
             else
             {
-                for (int i = 0; i < _n; ++i)
+                for(int i = 0; i < _Lt_.Count; ++i)
                 {
-                    if (_arr[i] < _Prev) continue;
-
-                    _c[pos] = _arr[i];
-                    BT(pos + 1, ref _c, _arr[i]);
+                    _c[cnt] = _Lt_[i];
+                    BT(cnt + 1, ref _c);
                 }
             }
         }
