@@ -1,129 +1,85 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml.Linq;
-using static CodingTestProj.Program;
-using System.Text;
+﻿//using System;
+//using System.Collections;
+//using System.Collections.Generic;
+//using System.Xml.Linq;
+//using static CodingTestProj.Program;
+//using System.Text;
 
-///*
-// * Difficulty : 
-// * URL : https://www.acmicpc.net/problem/9728
-//  * Time : 
-// */
+/////*
+//// * Difficulty : Easy
+//// * URL : https://www.acmicpc.net/problem/9728
+////  * Time : 13m
+//// */
 
-namespace CodingTestProj
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Solution solu = new Solution();
-            solu.solve();
-        }
-    }
+//namespace CodingTestProj
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Solution solu = new Solution();
+//            solu.solve();
+//        }
+//    }
 
-    public class Solution
-    {
-        public int _n;
-        public int _m;
-        public int[] _arr;
-        public bool[] _visit;
-        public int _Count; // 자릿수
+//    public class Solution
+//    {
+//        int _n; // 배열 사이즈
+//        int _m; // 정수 M
 
-        public int[] _c;
+//        int _loopCnt;
+//        int[] _arr;
+//        Dictionary<int, int> _dic;
 
-        public List<int> _Lt_= new List<int>();
-        public HashSet<int> _hs_ret = new HashSet<int>();
+//        public void solve()
+//        {
+//            _dic = new Dictionary<int, int>();
+//            _loopCnt = int.Parse(Console.ReadLine());
 
-        public void solve()
-        {
-            _Count = 0;
-            _n = int.Parse(Console.ReadLine());
-            int _copyN = _n;
+//            for (int i = 0; i < _loopCnt; ++i)
+//            {
+//                string[] _input = Console.ReadLine().Split(' ');
+//                _n = int.Parse(_input[0]);
+//                _m = int.Parse(_input[1]);
 
-            while(true)
-            {
-                if (_copyN == 0)
-                    break;
+//                _arr = new int[_n];
+//                _input = Console.ReadLine().Split(' ');
 
-                int _val = _copyN % 10;
-                _copyN /= 10;
-                _Lt_.Add(_val);
-                ++_Count;
-            }
+//                for (int j = 0; j < _input.Length; ++j)
+//                    _arr[j] = int.Parse(_input[j]);
+//                // 데이터 설정
 
-            _Lt_.Reverse();
-            _c = new int[_Lt_.Count];
-            _m = _Lt_.Count;
+//                int _left = 0;
+//                int _right = _arr.Length - 1;
 
-            BT(0, ref _c);
+//                while (_left < _right)
+//                {
+//                    if (_arr[_left] + _arr[_right] == _m)
+//                    {
+//                        if (_dic.ContainsKey(i) == false)
+//                            _dic.Add(i, 0);
 
-            List<int> _a = new List<int>();
-            int _ret = 1000000;
+//                        _dic[i]++;
+//                        ++_left;
+//                    }
+//                    else if (_arr[_left] + _arr[_right] < _m)
+//                    {
+//                        ++_left;
+//                    }
+//                    else
+//                    {
+//                        --_right;
+//                    }
+//                }
+//            }
 
-            foreach(var pair in _hs_ret)
-            {
-                if(pair > _n)
-                {
-                    _a.Clear();
+//            foreach (var pair in _dic)
+//            {
+//                int key = pair.Key;
+//                int value = pair.Value;
 
-                    int _v = pair;
-                    while (true)
-                    {
-                        if (_v == 0)
-                            break;
-
-                        int _val = _v % 10;
-                        _v /= 10;
-                        _a.Add(_val);
-                    }
-
-                    for(int i = 0; i < _Lt_.Count; ++i)
-                    {
-                        if (_a.Contains(_Lt_[i]) == true)
-                        {
-                            _a.Remove(_Lt_[i]);
-                        }
-                    }
-
-                    if (_a.Count != 0)
-                        continue;
-
-                    if(_n < _ret && _ret > pair)
-                    {
-                        _ret = pair;
-                    }
-                }
-            }
-
-            _ret = _ret == 1000000 ? 0 : _ret;
-            Console.WriteLine(_ret);
-        }
-
-        public void BT(int cnt, ref int[] _c)
-        {
-            if(cnt == _m)
-            {
-                int val = (int)Math.Pow(10, _Count-1);
-                int _retVal = 0;
-
-                for(int i = 0; i < cnt; ++i)
-                {
-                    _retVal += _c[i] * val;
-                    val /= 10;
-                }
-
-                if(!_hs_ret.Contains(_retVal))
-                    _hs_ret.Add(_retVal);
-            }
-            else
-            {
-                for(int i = 0; i < _Lt_.Count; ++i)
-                {
-                    _c[cnt] = _Lt_[i];
-                    BT(cnt + 1, ref _c);
-                }
-            }
-        }
-    }
-}
+//                Console.WriteLine($"Case #{key + 1}: {value}");
+//            }
+//        }
+//    }
+//}
