@@ -66,6 +66,7 @@
     <Compile Include="Script\BOJ\BOJ_1235_학생_번호.cs" />
     <Compile Include="Script\BOJ\BOJ_1251_단어_나누기.cs" />
     <Compile Include="Script\BOJ\BOJ_1312_소수.cs" />
+    <Compile Include="Script\BOJ\BOJ_2018_수들의합5.cs" />
     <Compile Include="Script\BOJ\BOJ_1389.cs" />
     <Compile Include="Script\BOJ\BOJ_1389_A→B.cs" />
     <Compile Include="Script\BOJ\BOJ_1427_소트인사이드.cs" />
