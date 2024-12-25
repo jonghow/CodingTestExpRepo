@@ -6,7 +6,7 @@ using static CodingTestProj.Program;
 using System.Text;
 
 ///*
-// * Difficulty : 
+// * Difficulty : Easy - Middle
 // * URL : https://www.acmicpc.net/problem/12234
 //  * Time : 38m +
 // */
@@ -56,6 +56,7 @@ namespace CodingTestProj
                 for(int i = 0; i < _input.Length; ++i)
                     _arr[i] = int.Parse(_input[i]);
 
+                Array.Sort(_arr);
                 _left = 0;
                 _right = _n - 1;
                 _ret = 0;
