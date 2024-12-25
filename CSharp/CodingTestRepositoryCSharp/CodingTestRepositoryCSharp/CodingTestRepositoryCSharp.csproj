@@ -62,6 +62,7 @@
     <Compile Include="Script\BOJ\BOJ_10973_이전순열_순열_FAIL.cs" />
     <Compile Include="Script\BOJ\BOJ_10974_모든_순열 - 복사본.cs" />
     <Compile Include="Script\BOJ\BOJ_10974_모든_순열.cs" />
+    <Compile Include="Script\BOJ\BOJ_11234_Data_Packing.cs" />
     <Compile Include="Script\BOJ\BOJ_1213_팰린드롬만들기 - 복사본.cs" />
     <Compile Include="Script\BOJ\BOJ_1235_학생_번호.cs" />
     <Compile Include="Script\BOJ\BOJ_1251_단어_나누기.cs" />
