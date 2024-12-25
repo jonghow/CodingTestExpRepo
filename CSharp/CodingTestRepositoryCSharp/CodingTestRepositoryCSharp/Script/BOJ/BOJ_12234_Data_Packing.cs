@@ -37,13 +37,13 @@ namespace CodingTestProj
         {
             _t = int.Parse(Console.ReadLine());
 
-            int _left; 
+            int _left;
             int _right;
 
             string[] _input;
             int _loopCount = 0;
 
-            while(_t > 0)
+            while (_t > 0)
             {
 
                 _input = Console.ReadLine().Split(' ');
@@ -53,7 +53,7 @@ namespace CodingTestProj
 
                 _input = Console.ReadLine().Split(' ');
 
-                for(int i = 0; i < _input.Length; ++i)
+                for (int i = 0; i < _input.Length; ++i)
                     _arr[i] = int.Parse(_input[i]);
 
                 Array.Sort(_arr);
@@ -61,11 +61,11 @@ namespace CodingTestProj
                 _right = _n - 1;
                 _ret = 0;
 
-                while ( _left <= _right )
+                while (_left <= _right)
                 {
                     int _data = _arr[_left] + _arr[_right];
 
-                    if(_data <= _cap)
+                    if (_data <= _cap)
                     {
                         ++_left;
                     }
@@ -74,7 +74,7 @@ namespace CodingTestProj
                     ++_ret;
                 }
 
-                Console.WriteLine($"Case #{_loopCount+1}: {_ret}");
+                Console.WriteLine($"Case #{_loopCount + 1}: {_ret}");
                 ++_loopCount;
                 --_t;
             }
