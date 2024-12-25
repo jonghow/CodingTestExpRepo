@@ -66,6 +66,7 @@
     <Compile Include="Script\BOJ\BOJ_1235_학생_번호.cs" />
     <Compile Include="Script\BOJ\BOJ_1251_단어_나누기.cs" />
     <Compile Include="Script\BOJ\BOJ_1312_소수.cs" />
+    <Compile Include="Script\BOJ\BOJ_11728_배열합치기.cs" />
     <Compile Include="Script\BOJ\BOJ_17095_Min-Max_Subsequence.cs" />
     <Compile Include="Script\BOJ\BOJ_4158_CD.cs" />
     <Compile Include="Script\BOJ\BOJ_28353_고양이_카페.cs" />
