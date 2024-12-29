@@ -6,9 +6,9 @@ using static CodingTestProj.Program;
 using System.Text;
 
 ///*
-// * Difficulty : 
+// * Difficulty : Easy 
 // * URL : https://www.acmicpc.net/problem/7795
-//  * Time : 
+//  * Time : 36m
 // */
 
 namespace CodingTestProj
@@ -24,59 +24,89 @@ namespace CodingTestProj
 
     public class Solution
     {
-        int _t;
+        public int _n;
+        public int _m;
 
-        int _n;
-        int _cap;
+        public int[] _arrN;
+        public int[] _arrM;
 
-        int[] _arr;
-
-        int _ret;
-
+        public HashSet<string> _hs_ret;
+        
         public void solve()
         {
-            _t = int.Parse(Console.ReadLine());
-
-            int _left;
-            int _right;
-
+            int _case = int.Parse(Console.ReadLine());
             string[] _input;
-            int _loopCount = 0;
+            _hs_ret = new HashSet<string>();
 
-            while (_t > 0)
+            for (int i = 0; i < _case; ++i)
             {
+                _hs_ret.Clear();
 
                 _input = Console.ReadLine().Split(' ');
                 _n = int.Parse(_input[0]);
-                _arr = new int[_n];
-                _cap = int.Parse(_input[1]);
+                _m = int.Parse(_input[1]);
+                _arrN = new int[_n];
+                _arrM = new int[_m];
 
                 _input = Console.ReadLine().Split(' ');
 
-                for (int i = 0; i < _input.Length; ++i)
-                    _arr[i] = int.Parse(_input[i]);
+                for(int j = 0; j < _input.Length; ++j)
+                    _arrN[j] = int.Parse(_input[j]);
 
-                Array.Sort(_arr);
-                _left = 0;
-                _right = _n - 1;
-                _ret = 0;
+                Array.Sort(_arrN);
+                // A 집합
 
-                while (_left <= _right)
+                _input = Console.ReadLine().Split(' ');
+
+                for (int j = 0; j < _input.Length; ++j)
+                    _arrM[j] = int.Parse(_input[j]);
+
+                Array.Sort(_arrM);
+                // B 집합
+
+                int _ret = 0;
+
+                for (int j = 0; j < _arrN.Length;++j)
                 {
-                    int _data = _arr[_left] + _arr[_right];
+                    int _elem =  _arrN[j];
 
-                    if (_data <= _cap)
+                    int _gB_left = 0;
+                    int _gB_right = _arrM.Length - 1;
+
+                    while (_gB_left <= _gB_right)
                     {
-                        ++_left;
+                        int _gB_L_elem = _arrM[_gB_left];
+                        int _gB_R_elem = _arrM[_gB_right];
+
+                        if(_gB_left ==  _gB_right)
+                        {
+                            if(_elem > _gB_L_elem)
+                            {
+                                ++_ret;
+                            }
+                        }
+                        else
+                        {
+                            if (_elem > _gB_L_elem)
+                            {
+                                ++_ret;
+                            }
+                            // 그룹 B 의 왼쪽 처리
+
+                            if (_elem > _gB_R_elem)
+                            {
+                                ++_ret;
+                            }
+                            // 그룹 B 의 오른쪽 처리
+                        }
+
+                        ++_gB_left;
+                        --_gB_right;
                     }
-
-                    --_right;
-                    ++_ret;
                 }
-
-                Console.WriteLine($"Case #{_loopCount + 1}: {_ret}");
-                ++_loopCount;
-                --_t;
+                //Console.WriteLine(_hs_ret.Count);
+                Console.WriteLine(_ret);
+                // 출력
             }
         }
     }
