@@ -42,25 +42,24 @@ namespace CodingTestProj
                 ++_ret;
 
                 int _valRet = 0;
+                int _tempCalc = 0;
+                bool _isLower10 = (_calc < 10) ? true : false;
 
-                if (_calc < 10)
+                if (_isLower10)
                 {
-                    int _tempCalc = _calc * 10;
-                    int _tempDiv10 = _tempCalc / 10;
-                    int _tempDiv1 = _tempCalc % 10;
-                    int _tempRet = _tempDiv10 + _tempDiv1;
-
-                    _valRet = (_tempDiv10 * 10) + (_tempRet);
+                    _tempCalc = _calc * 10;
+                    _calc = _tempCalc;
                 }
+
+                int _val1 = _calc / 10; // 십의자리
+                int _val2 = _calc % 10; // 일의자리
+
+                int _val3 = (_val1 + _val2) >= 10 ? (_val1 + _val2) % 10 : _val1 + _val2;
+
+                if (_isLower10)
+                    _valRet = (_val1 * 10) + _val3;
                 else
-                {
-                    int _val1 = _calc / 10; // 십의자리
-                    int _val2 = _calc % 10; // 일의자리
-
-                    int _val3 = (_val1 + _val2) >= 10 ? (_val1 + _val2) % 10 : _val1 + _val2;
-
-                    _valRet = (_val2 * 10) + (_val3);
-                }
+                    _valRet = (_val2 * 10) + _val3;
 
                 if (_val == _valRet)
                     break;
