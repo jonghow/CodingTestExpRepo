@@ -1,83 +1,74 @@
-﻿//using System;
-//using System.Collections;
-//using System.Collections.Generic;
-//using System.Xml.Linq;
-//using static CodingTestProj.Program;
-//using System.Text;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Xml.Linq;
+using static CodingTestProj.Program;
+using System.Text;
 
-/////*
-//// * Difficulty : 
-//// * URL : https://www.acmicpc.net/problem/1110
-////  * Time : 
-//// */
+///*
+// * Difficulty : Easy
+// * URL : https://www.acmicpc.net/problem/1110
+//  * Time : 35m
+// */
 
-//namespace CodingTestProj
-//{
-//    internal class Program
-//    {
-//        static void Main(string[] args)
-//        {
-//            Solution solu = new Solution();
-//            solu.solve();
-//        }
-//    }
+namespace CodingTestProj
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Solution solu = new Solution();
+            solu.solve();
+        }
+    }
 
-//    public class Solution
-//    {
-//        int _t;
+    public class Solution
+    {
+        // 0 ~ 99 
+        public int _val;
+        public int _ret;
 
-//        int _n;
-//        int _cap;
+        // 10보다 작다 => 0을 붙인다.
 
-//        int[] _arr;
+        public void solve()
+        {
+            _val = int.Parse(Console.ReadLine());
+            _ret = 0;
 
-//        int _ret;
+            int _calc = _val;
 
-//        public void solve()
-//        {
-//            _t = int.Parse(Console.ReadLine());
+            while(true)
+            {
+                ++_ret;
 
-//            int _left;
-//            int _right;
+                int _valRet = 0;
 
-//            string[] _input;
-//            int _loopCount = 0;
+                if (_calc < 10)
+                {
+                    int _tempCalc = _calc * 10;
+                    int _tempDiv10 = _tempCalc / 10;
+                    int _tempDiv1 = _tempCalc % 10;
+                    int _tempRet = _tempDiv10 + _tempDiv1;
 
-//            while (_t > 0)
-//            {
+                    _valRet = (_tempDiv10 * 10) + (_tempRet);
+                }
+                else
+                {
+                    int _val1 = _calc / 10; // 십의자리
+                    int _val2 = _calc % 10; // 일의자리
 
-//                _input = Console.ReadLine().Split(' ');
-//                _n = int.Parse(_input[0]);
-//                _arr = new int[_n];
-//                _cap = int.Parse(_input[1]);
+                    int _val3 = (_val1 + _val2) >= 10 ? (_val1 + _val2) % 10 : _val1 + _val2;
 
-//                _input = Console.ReadLine().Split(' ');
+                    _valRet = (_val2 * 10) + (_val3);
+                }
 
-//                for (int i = 0; i < _input.Length; ++i)
-//                    _arr[i] = int.Parse(_input[i]);
+                if (_val == _valRet)
+                    break;
 
-//                Array.Sort(_arr);
-//                _left = 0;
-//                _right = _n - 1;
-//                _ret = 0;
+                _calc = _valRet;
+            }
 
-//                while (_left <= _right)
-//                {
-//                    int _data = _arr[_left] + _arr[_right];
-
-//                    if (_data <= _cap)
-//                    {
-//                        ++_left;
-//                    }
-
-//                    --_right;
-//                    ++_ret;
-//                }
-
-//                Console.WriteLine($"Case #{_loopCount + 1}: {_ret}");
-//                ++_loopCount;
-//                --_t;
-//            }
-//        }
-//    }
-//}
+            Console.WriteLine(_ret);
+        }
+    }
+}
