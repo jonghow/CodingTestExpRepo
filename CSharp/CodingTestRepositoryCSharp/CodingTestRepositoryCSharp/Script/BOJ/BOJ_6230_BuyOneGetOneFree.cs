@@ -6,9 +6,9 @@ using static CodingTestProj.Program;
 using System.Text;
 
 ///*
-// * Difficulty : 
+// * Difficulty : Middle
 // * URL : https://www.acmicpc.net/problem/6230
-//  * Time : 1h +
+//  * Time : 1h 27m
 // */
 
 namespace CodingTestProj
@@ -24,6 +24,7 @@ namespace CodingTestProj
 
     public class Solution
     {
+        public HashSet<string> _hs_ret;
         public int _n;
         public int _m;
 
@@ -35,6 +36,7 @@ namespace CodingTestProj
 
         public void solve()
         {
+            _hs_ret = new HashSet<string>();
             string[] _input = Console.ReadLine().Split(' ');
             _n = int.Parse(_input[0]);
             _m = int.Parse(_input[1]);
@@ -57,38 +59,35 @@ namespace CodingTestProj
 
             // 제일 큰 수에서 가져오면 된다.
 
-            //Array.Sort(_arrN, (int a, int b) => { return b.CompareTo(a); });
-            Array.Sort(_arrN);
-            Array.Sort(_arrM);
+            Array.Sort(_arrN, (int a, int b) => { return b.CompareTo(a); });
+            Array.Sort(_arrM, (int a, int b) => { return b.CompareTo(a); });
 
             int _retResult = 0;
 
-            for(int i = 0; i < _arrN.Length; ++i)
+            while(_left < _arrN.Length)
             {
-                int val = _arrN[i];
-                int retVal = BinarySearch(_arrM, val);
-                _retResult = Math.Max(_retResult, retVal+1);
+                int _nArrElem = _arrN[_left];
+
+                for(int i = 0; i < _arrM.Length; ++i)
+                {
+                    int _mArrElem = _arrM[i];
+
+                    if (_nArrElem <= _mArrElem) continue;
+
+                    string _key = $"{i}"; // 인덱스로 넣음
+                    if(!_hs_ret.Contains(_key))
+                    {
+                        _hs_ret.Add(_key); // 저품질 건초 +
+                        break;
+                    }
+                }
+
+                ++_retResult; // 고급 건초 카운트
+                ++_left;
             }
 
+            _retResult += _hs_ret.Count;
             Console.WriteLine(_retResult);
-        }
-
-        public int BinarySearch(int[] smallArr, int value)
-        {
-            int left = 0;
-            int right = smallArr.Length;
-
-            while(left < right)
-            {
-                int mid = (left + right) / 2;
-
-                if (smallArr[mid] < value)
-                    left = mid +1;
-                else
-                    right = mid;
-            }
-
-            return left;
         }
     }
 }
