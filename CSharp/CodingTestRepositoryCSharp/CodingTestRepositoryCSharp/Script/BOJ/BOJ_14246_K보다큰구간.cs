@@ -24,70 +24,73 @@ namespace CodingTestProj
 
     public class Solution
     {
-        public HashSet<string> _hs_ret;
+        public int _ret;
         public int _n;
-        public int _m;
+        public int _k;
 
-        public int[] _arrN;
-        public int[] _arrM;
+        public int[] _arrAsc;
 
-        public int _left;
-        public int _right;
+        public HashSet<KeyValuePair<int,int>> _hs;
 
         public void solve()
         {
-            _hs_ret = new HashSet<string>();
+            _ret = 0;
+            _hs = new HashSet<KeyValuePair<int, int>>();
+
+            _n = int.Parse(Console.ReadLine());
+            _arrAsc = new int[_n];
             string[] _input = Console.ReadLine().Split(' ');
-            _n = int.Parse(_input[0]);
-            _m = int.Parse(_input[1]);
 
-            _arrN = new int[_n];
-            _arrM = new int[_m];
-
-            for (int i = 0; i < _n; ++i)
-                _arrN[i] = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < _m; ++i)
-                _arrM[i] = int.Parse(Console.ReadLine());
-
-            /*
-             *  A크기 건초베일 하나 살때 B 크기의 건초베일 무료로
-             *  N 고품질 배일 , M 저품질 베일
-             */
-            _left = 0;
-            _right = _n - 1;
-
-            // 제일 큰 수에서 가져오면 된다.
-
-            Array.Sort(_arrN, (int a, int b) => { return b.CompareTo(a); });
-            Array.Sort(_arrM, (int a, int b) => { return b.CompareTo(a); });
-
-            int _retResult = 0;
-
-            while(_left < _arrN.Length)
+            for(int i = 0; i < _input.Length; ++i)
             {
-                int _nArrElem = _arrN[_left];
+                _arrAsc[i] = int.Parse(_input[i]);
+            }
 
-                for(int i = 0; i < _arrM.Length; ++i)
+            int _left = 0;
+            int _right = _n - 1;
+
+            _k = int.Parse(Console.ReadLine());
+
+            while (_left <= _right)
+            {
+                int _valAcc = 0;
+
+                for(int i = _left; i < _arrAsc.Length; ++i)
                 {
-                    int _mArrElem = _arrM[i];
+                    _valAcc += _arrAsc[i];
 
-                    if (_nArrElem <= _mArrElem) continue;
-
-                    string _key = $"{i}"; // 인덱스로 넣음
-                    if(!_hs_ret.Contains(_key))
+                    if(_valAcc > _k)
                     {
-                        _hs_ret.Add(_key); // 저품질 건초 +
-                        break;
+                        KeyValuePair<int, int> kv = new KeyValuePair<int, int>(_left, i);
+                        if (!_hs.Contains(kv))
+                        {
+                            _hs.Add(kv);
+                            ++_ret;
+                        }
                     }
                 }
 
-                ++_retResult; // 고급 건초 카운트
+                _valAcc = 0;
+                for (int i = _right; i >= 0; --i)
+                {
+                    _valAcc += _arrAsc[i];
+
+                    if (_valAcc > _k)
+                    {
+                        KeyValuePair<int, int> kv = new KeyValuePair<int, int>(i, _right);
+                        if (!_hs.Contains(kv))
+                        {
+                            _hs.Add(kv);
+                            ++_ret;
+                        }
+                    }
+                }
+
                 ++_left;
+                --_right;
             }
 
-            _retResult += _hs_ret.Count;
-            Console.WriteLine(_retResult);
+            Console.WriteLine(_ret);
         }
     }
 }
