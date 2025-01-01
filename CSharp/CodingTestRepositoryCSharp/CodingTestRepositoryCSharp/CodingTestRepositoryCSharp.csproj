@@ -63,6 +63,7 @@
     <Compile Include="Script\BOJ\BOJ_10974_모든_순열 - 복사본.cs" />
     <Compile Include="Script\BOJ\BOJ_10974_모든_순열.cs" />
     <Compile Include="Script\BOJ\BOJ_1110_더하기사이클.cs" />
+    <Compile Include="Script\BOJ\BOJ_14246_K보다큰구간.cs" />
     <Compile Include="Script\BOJ\BOJ_6230_BuyOneGetOneFree.cs" />
     <Compile Include="Script\BOJ\BOJ_7795_먹을_것인가_먹힐_것인가.cs" />
     <Compile Include="Script\BOJ\BOJ_12234_Data_Packing.cs" />
