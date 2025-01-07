@@ -37,7 +37,7 @@ namespace CodingTestProj
                 _arr[i] = int.Parse(_in[i]);
 
             int _ret = int.MinValue;
-            Array.Sort(_arr); // 오름차순 정렬
+            //Array.Sort(_arr); // 오름차순 정렬
 
             for (int i = 0; i < _arr.Length; ++i)
             {
@@ -60,16 +60,13 @@ namespace CodingTestProj
             {
                 int mid = (sleft + right) / 2;
 
-                //if (sleft +1 == right)
-                //{
-                //    sleft  = arr.Length;
-                //    break;
-                //}
+                int min = Math.Min(val, arr[mid]);
+                int cur = Math.Max(val, arr[mid]);
 
-                if ((val + 2 <= arr[mid]))
+                if(min +2 <= cur)
                     right = mid;
                 else
-                    sleft = mid+1;
+                    sleft = mid + 1;
             }
 
             return sleft-left+1;
