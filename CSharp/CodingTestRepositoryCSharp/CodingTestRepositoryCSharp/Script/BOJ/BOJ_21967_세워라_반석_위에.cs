@@ -6,9 +6,9 @@ using static CodingTestProj.Program;
 using System.Text;
 
 ///*
-// * Difficulty : 
+// * Difficulty : Middle
 // * URL : https://www.acmicpc.net/problem/21967
-//  * Time : 
+//  * Time : 1h 14m
 // */
 
 namespace CodingTestProj
@@ -24,10 +24,55 @@ namespace CodingTestProj
 
     public class Solution
     {
+        public int _n;
+        public int[] _arr;
         public void solve()
         {
-          
+            _n = int.Parse(Console.ReadLine());
+            _arr = new int[_n];
+
+            string[] _in = Console.ReadLine().Split(' ');
+
+            for (int i = 0; i < _in.Length; ++i)
+                _arr[i] = int.Parse(_in[i]);
+
+            int _ret = int.MinValue;
+            Array.Sort(_arr); // 오름차순 정렬
+
+            for (int i = 0; i < _arr.Length; ++i)
+            {
+                int _val = _arr[i];
+                int _bsIdx = BinarySearch(_arr, i, _val);
+
+                if (_bsIdx >= _ret)
+                    _ret = _bsIdx;
+            }
+
+            Console.WriteLine(_ret);
+        }
+
+        public int BinarySearch(int[] arr, int left, int val)
+        {
+            int sleft = left;
+            int right = _arr.Length - 1;
+
+            while (sleft < right)
+            {
+                int mid = (sleft + right) / 2;
+
+                //if (sleft +1 == right)
+                //{
+                //    sleft  = arr.Length;
+                //    break;
+                //}
+
+                if ((val + 2 <= arr[mid]))
+                    right = mid;
+                else
+                    sleft = mid+1;
+            }
+
+            return sleft-left+1;
         }
     }
 }
- 
