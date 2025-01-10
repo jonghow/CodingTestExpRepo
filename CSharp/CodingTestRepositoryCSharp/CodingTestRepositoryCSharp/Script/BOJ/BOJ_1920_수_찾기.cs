@@ -1,75 +1,94 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml.Linq;
-using static CodingTestProj.Program;
-using System.Text;
+﻿//using System;
+//using System.Collections;
+//using System.Collections.Generic;
+//using System.Xml.Linq;
+//using static CodingTestProj.Program;
+//using System.Text;
 
-///*
-// * Difficulty : 
-// * URL : https://www.acmicpc.net/problem/1920
-//  * Time : 
-// */
+/////*
+//// * Difficulty : 
+//// * URL : https://www.acmicpc.net/problem/1920
+////  * Time : 
+//// */
 
-namespace CodingTestProj
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Solution solu = new Solution();
-            solu.solve();
-        }
-    }
+//namespace CodingTestProj
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Solution solu = new Solution();
+//            solu.solve();
+//        }
+//    }
 
-    public class Solution
-    {
-        public int _n;
-        public int[] _arr;
-        public void solve()
-        {
-            _n = int.Parse(Console.ReadLine());
-            _arr = new int[_n];
+//    public class Solution
+//    {
+//        public int _n;
+//        public int _m;
 
-            string[] _in = Console.ReadLine().Split(' ');
+//        public int[] _arr;
+//        public int[] _candidate;
 
-            for (int i = 0; i < _in.Length; ++i)
-                _arr[i] = int.Parse(_in[i]);
+//        public void solve()
+//        {
+//            _n = int.Parse(Console.ReadLine());
 
-            int _ret = int.MinValue;
-            //Array.Sort(_arr); // 오름차순 정렬
+//            _arr = new int[_n];
+//            string[] _input = Console.ReadLine().Split(' ');
 
-            for (int i = 0; i < _arr.Length; ++i)
-            {
-                int _val = _arr[i];
-                int _bsIdx = BinarySearch(_arr, i, _val);
+//            for (int i = 0; i < _input.Length; ++i)
+//                _arr[i] = int.Parse(_input[i]);
 
-                if (_bsIdx >= _ret)
-                    _ret = _bsIdx;
-            }
+//            // Array.Sort(_arr);
+//            // 정렬
 
-            Console.WriteLine(_ret);
-        }
+//            _m = int.Parse(Console.ReadLine());
+//            _candidate = new int[_m];
 
-        public int BinarySearch(int[] arr, int left, int val)
-        {
-            int sleft = left;
-            int right = _arr.Length - 1;
+//            _input = Console.ReadLine().Split(' ');
 
-            while (sleft < right)
-            {
-                int mid = (sleft + right) / 2;
+//            for (int i = 0; i < _input.Length; ++i)
+//                _candidate[i] = int.Parse(_input[i]);
+//            // Input..
 
-                int min = Math.Min(val, arr[mid]);
-                int cur = Math.Max(val, arr[mid]);
+//            StringBuilder sb = new StringBuilder();
 
-                if(min +2 <= cur)
-                    right = mid;
-                else
-                    sleft = mid + 1;
-            }
+//            for (int i = 0; i < _candidate.Length; ++i)
+//            {
+//                if (BinarySearch(_arr, _candidate[i]) != -1)// Finds
+//                    sb.Append(1);
+//                else
+//                    sb.Append(0);
 
-            return sleft-left+1;
-        }
-    }
-}
+//                sb.AppendLine();
+//            }
+
+//            Console.WriteLine(sb.ToString());
+//        }
+
+//        public int BinarySearch(int[] _arr, int _searchItem)
+//        {
+//            int _ret = -1;
+//            int _left = 0;
+//            int _right = _arr.Length - 1;
+
+//            while (_left <= _right)
+//            {
+//                int mid = (_left + _right) / 2;
+
+//                if (_arr[mid] == _searchItem)
+//                {
+//                    _ret = 1;
+//                    break;
+//                }
+//                else if (_arr[mid] > _searchItem)
+//                    _right = mid;
+//                else if (_arr[mid] < _searchItem)
+//                    _left = mid + 1;
+//            }
+
+//            return _ret;
+//        }
+//    }
+//}
