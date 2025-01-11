@@ -63,7 +63,8 @@
     <Compile Include="Script\BOJ\BOJ_10974_모든_순열 - 복사본.cs" />
     <Compile Include="Script\BOJ\BOJ_10974_모든_순열.cs" />
     <Compile Include="Script\BOJ\BOJ_1110_더하기사이클.cs" />
-    <Compile Include="Script\BOJ\BOJ_19637_IF문좀대신써줘.cs" />
+    <Compile Include="Script\BOJ\BOJ_19637_IF문좀대신써줘_이분탐색.cs" />
+    <Compile Include="Script\BOJ\BOJ_19637_IF문좀대신써줘_풀배열.cs" />
     <Compile Include="Script\BOJ\BOJ_1920_수_찾기_Hash.cs" />
     <Compile Include="Script\BOJ\BOJ_1920_수_찾기.cs" />
     <Compile Include="Script\BOJ\BOJ_21967_세워라_반석_위에.cs" />
