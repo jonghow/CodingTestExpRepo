@@ -1,67 +1,67 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml.Linq;
-using static CodingTestProj.Program;
-using System.Text;
+﻿//using System;
+//using System.Collections;
+//using System.Collections.Generic;
+//using System.Xml.Linq;
+//using static CodingTestProj.Program;
+//using System.Text;
 
-///*
-// * Difficulty : 
-// * URL : https://www.acmicpc.net/problem/1920
-//  * Time : 
-// */
+/////*
+//// * Difficulty : 
+//// * URL : https://www.acmicpc.net/problem/1920
+////  * Time : 
+//// */
 
-namespace CodingTestProj
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Solution solu = new Solution();
-            solu.solve();
-        }
-    }
+//namespace CodingTestProj
+//{
+//    internal class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Solution solu = new Solution();
+//            solu.solve();
+//        }
+//    }
 
-    public class Solution
-    {
-        public int _n;
-        public int _m;
+//    public class Solution
+//    {
+//        public int _n;
+//        public int _m;
 
-        public int[] _candidate;
+//        public int[] _candidate;
 
-        public HashSet<int> _hs;
-        public void solve()
-        {
-            _hs = new HashSet<int>();
-            _n = int.Parse(Console.ReadLine());
+//        public HashSet<int> _hs;
+//        public void solve()
+//        {
+//            _hs = new HashSet<int>();
+//            _n = int.Parse(Console.ReadLine());
 
-            string[] _input = Console.ReadLine().Split(' ');
+//            string[] _input = Console.ReadLine().Split(' ');
 
-            for(int i = 0;  i < _input.Length; ++i)
-                _hs.Add(int.Parse(_input[i]));
+//            for(int i = 0;  i < _input.Length; ++i)
+//                _hs.Add(int.Parse(_input[i]));
 
-            _m = int.Parse(Console.ReadLine());
-            _candidate = new int[_m];
+//            _m = int.Parse(Console.ReadLine());
+//            _candidate = new int[_m];
 
-            _input = Console.ReadLine().Split(' ');
+//            _input = Console.ReadLine().Split(' ');
 
-            for (int i = 0; i < _input.Length; ++i)
-                _candidate[i] = int.Parse(_input[i]);
-            // Input..
+//            for (int i = 0; i < _input.Length; ++i)
+//                _candidate[i] = int.Parse(_input[i]);
+//            // Input..
 
-            StringBuilder sb = new StringBuilder();
+//            StringBuilder sb = new StringBuilder();
 
-            for(int i = 0; i < _candidate.Length; ++i)
-            {
-                if(_hs.Contains(_candidate[i]) == true)
-                    sb.Append(1);
-                else
-                    sb.Append(0);
+//            for(int i = 0; i < _candidate.Length; ++i)
+//            {
+//                if(_hs.Contains(_candidate[i]) == true)
+//                    sb.Append(1);
+//                else
+//                    sb.Append(0);
 
-                sb.AppendLine();
-            }
+//                sb.AppendLine();
+//            }
 
-            Console.WriteLine(sb.ToString());
-        }
-    }
-}
+//            Console.WriteLine(sb.ToString());
+//        }
+//    }
+//}
