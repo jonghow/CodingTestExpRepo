@@ -8,7 +8,7 @@ using System.Text;
 /*
  * Difficulty : 
  * URL : https://www.acmicpc.net/problem/11663
- * Time : 
+ * Time : 1h 28m ++
  */
 
 public struct Point
@@ -22,6 +22,16 @@ public struct Point
         this.b = b;
     }
 }
+
+//10 5
+//1 3 7 10 15 16 20 28 39 40
+//1 2
+//1 4
+//1 10
+//10 11
+//15 20
+
+
 
 namespace CodingTestProj
 {
@@ -68,8 +78,18 @@ namespace CodingTestProj
 
             for(int i = 0; i < _point.Length; ++i)
             {
-                int _ret = BinarySearch(_dot, _point[i]);
-                _sb.AppendLine(_ret.ToString());
+                int _ret = 0;
+                int _maxDot = _dot.Length - 1;
+                if (_point[i].a > _dot[_maxDot] || _point[i].b < _dot[0])
+                {
+
+                }
+                else
+                {
+                    _ret = BinarySearch(_dot, _point[i]);
+                }
+                _sb.Append(_ret.ToString());
+                _sb.Append('\n');
             }
  
             Console.WriteLine(_sb.ToString());
@@ -79,28 +99,44 @@ namespace CodingTestProj
         {
             int left = 0;
             int right = _arr.Length - 1;
-            int _ret = 0;
 
-            while(left < right)
+            int _leftIdx = 0;
+            int _rightIdx = 0;
+
+            while (left <= right)
             {
                 int mid = (left + right) / 2;
 
-                int calcleft = (left == 0) ? 0 : left - 1;
-
-                if (_arr[calcleft] <= _pt.a && _arr[right] >= _pt.b)
+                if (_arr[mid] < _pt.a)
                 {
-                    _ret = right - left +1;
-                    break;
-                }
-                else if (_arr[left] < _pt.a)
-                {
-                    left = left + 1;
+                    left = mid + 1;
                 }
                 else
-                    right = mid + 1;
+                {
+                    _leftIdx = mid;
+                    right = mid - 1;
+                }
             }
 
-            return _ret;
+            left = 0;
+            right = _arr.Length - 1;
+
+            while (left <= right)
+            {
+                int mid = (left + right) / 2;
+
+                if (_arr[mid] > _pt.b)
+                {
+                    right = mid -1;
+                }
+                else
+                {
+                    _rightIdx = mid;
+                    left = mid + 1;
+                }
+            }
+
+            return _rightIdx - _leftIdx +1;
         }
     }
 }
