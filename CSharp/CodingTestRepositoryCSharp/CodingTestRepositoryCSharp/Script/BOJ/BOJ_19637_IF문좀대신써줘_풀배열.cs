@@ -31,14 +31,14 @@
 
 //        public int[] _arr;
 
-//        public StringBuilder _sb; 
+//        public StringBuilder _sb;
 
 //        public void solve()
 //        {
 //            _sb = new StringBuilder();
 
 //            _dct_title = new Dictionary<int, string>();
-//            for(int i = 0; i < CTCnt; i++)
+//            for (int i = 0; i < CTCnt; i++)
 //                _dct_title.Add(i, string.Empty);
 
 //            string[] _input;
@@ -47,24 +47,26 @@
 //            _chrCnt = int.Parse(_input[1]);
 //            _arr = new int[_chrCnt];
 
-//            int min = 0; 
-//            for (int i= 0; i < _titleCnt; i++){
+//            int min = 0;
+//            for (int i = 0; i < _titleCnt; i++)
+//            {
 //                _input = Console.ReadLine().Split(' ');
 //                int _val = int.Parse(_input[1]);
 
-//                for(; min <= _val; ++min)
+//                for (; min <= _val; ++min)
 //                {
-//                    _dct_title[min] =_input[0];
+//                    _dct_title[min] = _input[0];
 //                }
 //            }// title
 
 
-//            for(int i = 0; i < _chrCnt; ++i){
+//            for (int i = 0; i < _chrCnt; ++i)
+//            {
 //                _arr[i] = int.Parse(Console.ReadLine());
 //            }
 //            //_chrCnt
 
-//            for(int i = 0; i < _arr.Length; ++i)
+//            for (int i = 0; i < _arr.Length; ++i)
 //            {
 //                _sb.AppendLine(BinarySearch(_arr[i]));
 //            }
@@ -72,7 +74,8 @@
 //            Console.WriteLine(_sb.ToString());
 //        }
 
-//        public string BinarySearch(int val){
+//        public string BinarySearch(int val)
+//        {
 //            return _dct_title[val];
 //        }
 //    }
